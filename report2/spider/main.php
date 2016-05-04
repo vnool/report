@@ -4,8 +4,8 @@ include "../library/support.php";
 
 $ACTIONS = array('Company','Finance');
 
-spiderByAction('Finance');
-//spiderByAction('Company');
+//spiderByAction('Finance');
+spiderByAction('Profile');
 
 
 
@@ -70,4 +70,8 @@ function  getCodes(){
   }
   
   return $codes;
+}
+
+function PRT($var){
+  var_dump($var);exit;
 }

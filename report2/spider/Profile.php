@@ -17,7 +17,7 @@ class Profile
     
     $code = $this->eastmoneyCode($code);     
     
-    $URL = 'http://f10.eastmoney.com/f10_v2/CompanySurvey.aspx?code=sz000022' .$code;
+    $URL = 'http://f10.eastmoney.com/f10_v2/CompanySurvey.aspx?code=' .$code;
     $this->DATA['stockholder'] = $this->stockTopHolder($URL);  
  
  }
@@ -28,6 +28,8 @@ class Profile
     $buf = file_get_contents($URL);     
    
     $buf =  getBetween($buf, '<table id="Table0">', "</table>");
+ 
+
     $keys = getBetween($buf[0],'<th','</th');
     $keys = cleanTag($keys);
 
@@ -36,7 +38,6 @@ class Profile
  
     $data = array_combine ( $keys , $values );
      
-    
   return $data;
    
 } 
