@@ -1,0 +1,23 @@
+<?php
+
+ 
+ 
+
+
+?> 
+<div class='PAGE' id='pageid<?=$pageid ?>' myid="<?=$pageid ?>" 
+style="<?= $style ?>">
+    <?
+   if($elements){
+     $eid = 1;
+     foreach ($elements  as $key=> $V) {
+        
+        $V['myID'] =  $pageid.'_'. ($eid++);
+        $V['divID'] = 'ele'.$V['myID'];
+
+        TEMPLATE('page/element.'.$V['type'] , $V); 
+     } 
+   }
+
+   ?>
+</div>

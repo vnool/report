@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="box_1" style="height:200px;width:400px"></div>
+<div id="box_2" style="height:200px;width:400px"></div>
+
+    <!-- ECharts单文件引入 -->
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script src="theme.helianthus.js"></script>
+    <script type="text/javascript">
+    // 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist',
+        }
+    });
+
+    // 使用
+    require(
+        [
+            'echarts',
+            'echarts/chart/bar', // 使用柱状图就加载bar模块，按需加载
+
+        ],
+        function(ec) {
+            callData(ec);
+        }
+    );
+
+
+    function callData(ec) {
+        // 基于准备好的dom，初始化echarts图表
+
+        var option = {
+            title: {
+                text: '某地区蒸发量和降水量',
+                subtext: '--'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['蒸发量', '降水量']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    magicType: {
+                        show: true,
+                        type: ['line', 'bar']
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'category',
+                data: ['2012年', '2013年', '2014年']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '$name',
+                type: 'bar',
+                data: []
+            }]
+        };
+
+        var data = [{
+            title: '营业收入（元）',
+            data: [480267777, 285866438, 513578986]
+        }, {
+            title: '营业成本（元）',
+            data: [236420060, 157203204, 264654068]
+        }, {
+            title: '营业利润（元）',
+            data: [86124247, -67575416, 9097214]
+        }, {
+            title: '利润总额（元）',
+            data: [87479516, -65499279, 9026995]
+        }, ];
+
+        var j = 0;
+        for (var i in data) {
+            var dat = data[i];
+            var opt = clone(option);
+            opt.title.text = dat.title;
+            opt.series[0].data = dat.data;
+            j++;
+
+            setOption(ec, opt, 'box_' + j);
+
+        };
+
+    }
+
+    function setOption(ec, opt, boxID) {
+
+        var myChart = ec.init(document.getElementById(boxID), theme.helianthus);
+
+        // 为echarts对象加载数据 
+        myChart.setOption(opt);
+        //myChart.setTheme('macarons', 'infographic'); 
+        //var te = require('echarts/theme/infographic');
+        // myChart.setTheme(te);
+    };
+
+    function clone(obj) {
+        var o, obj;
+        if (obj.constructor == Object) {
+            o = new obj.constructor();
+        } else {
+            o = new obj.constructor(obj.valueOf());
+        }
+        for (var key in obj) {
+            if (o[key] != obj[key]) {
+                if (typeof(obj[key]) == 'object') {
+                    o[key] = clone(obj[key]);
+                } else {
+                    o[key] = obj[key];
+                }
+            }
+        }
+        o.toString = obj.toString;
+        o.valueOf = obj.valueOf;
+        return o;
+    }
+    </script>
+</body>

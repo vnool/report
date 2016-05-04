@@ -1,0 +1,58 @@
+<?
+//prepare
+$title = $body['title'];
+$PIE = $body['data'];
+
+
+
+$Legend =[];
+foreach ($PIE as $key => $value) {
+    $Legend[] = $value['name']; 
+}
+$LegendTxt = json_encode( $Legend);
+$pieSeries = json_encode( ($PIE));
+
+?>
+<div id="<?=$divID?>" myid="<?=$myID?>"   class="chart_pie"   ></div>
+
+
+<script type="text/javascript">
+  
+    var myChart = echarts.init(document.getElementById("<?=$divID?>"));
+            var Options = {
+                color:[ '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',
+                         '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',
+                         '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0' ],
+                title : {
+                    text: "<?=$title ?>",
+                    x:'center'
+                }, 
+                tooltip : {
+                    trigger: 'item',
+                    formatter: "{b} : {c} ({d}%)"
+                },
+                legend: {
+                    orient: 'vertical',
+                    left: 'right',
+                    data: <?=$LegendTxt  ?>
+                },
+                series : [
+                    {
+                        name: "series-name",
+                        type: 'pie',
+                        // radius : '100%',
+                        // center: ['50%', '60%'],
+                        data: <?=$pieSeries ?> ,
+                        itemStyle: {
+                            emphasis: {
+                                shadowBlur: 10,
+                                shadowOffsetX: 0,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        }
+                    }
+                ]
+            };
+
+            myChart.setOption( Options);
+</script>

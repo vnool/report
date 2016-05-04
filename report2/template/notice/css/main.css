@@ -1,0 +1,138 @@
+body {
+    padding:  0px;
+    margin: 0px;overflow: hidden;
+    font-size: 1.2em;
+    font-family: "Microsoft YaHei";
+    -webkit-overflow-scrolling:touch;
+}
+
+.PAGE {
+    height: 100%;
+    width: 100%;
+    padding:10px; 
+    position: absolute;
+    -webkit-transition-duration: 1s;
+    overflow: hidden;
+    background-position: top center;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+}
+.PAGE.current{
+    z-index:1;
+}
+.PAGE.active{
+   z-index:2;
+}
+.title{
+    font-size: 1.2em;
+} 
+
+.text {
+    display: block;
+    margin:5px;    
+    text-align: center;  
+}
+.absolute{
+   position: absolute; 
+}
+.absolute.center{
+    left: 50%; 
+    -webkit-transform: translateX(-50%);
+}
+
+.text.vertical{
+     writing-mode: vertical-rl; 
+    -webkit-writing-mode: vertical-rl;
+}
+.chart {
+    width: 100%;
+    height: 50%;
+    margin-top:20px;
+}
+.pie{
+
+}
+.bar{
+
+}
+.swapUp {
+    -webkit-animation: swapUp  1s;
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.25, 1, 0.76);
+    -webkit-animation-fill-mode: forwards;
+}
+
+.swapDown {
+    -webkit-animation: swapDown  1s;
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.25, 1, 0.76);
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes swapUp 
+
+{
+   from { -webkit-transform: translateY(0%);}
+   to { -webkit-transform: translateY(-100%);}
+}
+@-webkit-keyframes swapDown
+
+{
+   from { -webkit-transform: translateY(-100%);}
+   to { -webkit-transform: translateY(0%);}
+}
+
+
+.flyCenter { 
+    display:  block !important;  
+    -webkit-transition-duration: 1.5s;
+    -webkit-animation:flyCenter 2s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes flyCenter /* Safari and Chrome */
+{
+ from { -webkit-transform: translateY(-50%);}
+ to { -webkit-transform: translateY(0%);}
+}
+
+@-webkit-keyframes flyIn /* Safari and Chrome */
+{
+ from { -webkit-transform: translateX(0%);}
+ to { -webkit-transform: translateX(50%);}
+}
+
+
+.loopjump{
+        background-image: url('../imgs/css_sprite01.png');
+    background-position: -0px -50px;
+    background-size: 80px;
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    height: 18px;
+    display: block;
+    z-index: 99999999;
+    /* background: #ff0; */
+    margin: 0px auto;
+    left: 50%;
+    margin-left: -12px; 
+    -webkit-animation:loopjump 2s infinite;
+
+/*animation-name:loopjump, loopjump2;
+animation-duration:1000ms, 10000ms;
+animation-timing-function:linear, linear;
+animation-delay:0, 2000ms;
+animation-iteration-count:1, infinite;
+animation-fill-mode:forwards, none;*/
+}
+ @-webkit-keyframes loopjump 
+{
+ 0% { transform: translateY(0px); opacity:0.2;}
+ 50% { transform: translateY(-30px); opacity:1;}
+ 100% { transform: translateY(-30px); opacity:0;} 
+} 
+@keyframes loopjump /* Safari and Chrome */
+{
+ 0% { transform: translateY(0px); opacity:0.2;}
+ 50% { transform: translateY(-30px); opacity:1;}
+ 100% { transform: translateY(-30px); opacity:0;} 
+} 

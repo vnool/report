@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+<title>报名系统</title>
+<title>山西省康乐幼儿园迎新系统</title>
+<link href="http://221.204.177.81:8080/school-admin-web/static/images/logo.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="http://221.204.177.81:8080/school-admin-web/static/css/Register.css" />
+<script type="text/javascript" src="http://221.204.177.81:8080/school-admin-web/static/datepicker/WdatePicker.js" ></script>
+<script type="text/javascript" src="http://221.204.177.81:8080/school-admin-web/static/js/jquery-1.11.0.min.js" ></script>
+<script type="text/javascript" src="http://221.204.177.81:8080/school-admin-web/static/js/jquery.shCircleLoader.js" ></script>
+<link rel="stylesheet" type="text/css" href="http://221.204.177.81:8080/school-admin-web/static/school/bootstrap/css/bootstrap.css">
+
+</head>
+<body
+	style="background-color:#fff;background-image: url('http://221.204.177.81:8080/school-admin-web/static/school/reg/img/bj_002.jpg');background-size: cover;">
+	<!--头部内容开始-->
+	<div class="top">		
+		<div class="topcontent">			
+          	<div>
+          		<div style="float: left;"><img src="http://221.204.177.81:8080/school-admin-web/static/school/reg/img/p_goToSchool_2.png" width="350px;" height="141px;"/></div>		
+			</div>
+		</div>		
+	</div>
+	<!--头部内容结束-->
+	<!--中间内容开始-->
+	<div class="content">
+		<div class="RegisterContent">
+			<div class="main_box">
+				<h4>
+					<strong>&nbsp;</strong>
+				</h4>
+				<input type="hidden" value="2016-05-09 11:30" id="startBMDateSet"/>
+				<input type="hidden" value="2016-05-10 11:06" id="endBMDateSet"/>
+				<input type="hidden" value="162" id="recordSum" />
+				<input type="hidden" value="0" id="nowSum" />				
+				<form id="_studentForm" action="http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/saveInfo" method="post">
+					<input type="hidden" value="未开始报名！" id="recordMessage"/>
+				<div class="reg-box">
+					<div class="reg-top">										
+						<ul class="step">
+							<li class="step1"><div class="steptitle" style="float: left;line-height: 25px;">1</div>
+							<h4 style="display: block;float: left;margin-top: 3px;">填写幼儿户口信息</h4></li>
+						</ul>
+						<div class="maincontent">
+							<table>
+								<tr>
+									<td class="labelleft">姓名：</td>
+									<td class="inputright"><input type="text" name="userName" id="userName" style="width: 300px;" maxlength="9"></td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>								
+								<tr>
+									<td class="labelleft">性别：</td>
+									<td class="inputright"><select name="sex" id="sex" style="width: 315px;">
+										<option value="">-请选择-</option>
+										<option value="1">男</option>
+										<option value="0">女</option>
+									</select></td>
+								</tr>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>								
+								<tr style="display: none;">
+									<td class="labelleft">证件类型：</td>
+									<td class="inputright">
+										<select name="identityType" id="identityType" style="width: 315px;">
+											<option value="1" selected="selected">身份证</option>
+											<option value="2">护照</option>
+											<option value="3">港澳台</option>
+											<option value="4">其他</option>
+										</select>
+									</td>								
+								</tr>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>																					
+								<tr>
+									<td class="labelleft">身份证号：</td>
+									<td class="inputright"><input type="text" name="identityNum" id="identityNum" style="width: 300px;" maxlength="18"></td>
+								</tr>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>	
+								<tr>
+									<td class="labelleft">出生日期：</td>
+									<td class="inputright">									
+										<input style="width: 300px;" type="text" name="brithday" id="brithday" onClick="WdatePicker({dateFmt:'yyyy-MM-dd'})" />（报名年龄：2012-09-01	至 2013-08-31 ）
+									</td>
+								</tr>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>	
+								<tr>
+									<td class="labelleft">家庭住址：</td>
+									<td class="inputright">
+										<input type="text" name="presentAddress" id="presentAddress" style="width: 300px;" maxlength="50">（请填写详细地址）
+									</td>
+								</tr>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">户籍所在地：</td>
+									<td class="inputright">
+										<input type="text" name="accountInAreaPolice" id="accountInAreaPolice" style="width: 300px;" maxlength="50">（请填写详细的户籍所在地地址）
+									</td>
+								</tr>										
+							</table>
+						</div>
+							
+						<ul class="step">
+							<li class="step1"><div class="steptitle" style="float: left;line-height: 25px;">2</div>
+								<h4 style="display: block;float: left;margin-top: 3px;">填写幼儿监护人信息</h4></li>
+						</ul>
+						<div class="maincontent">
+							<table>														
+								<tr>
+									<td class="labelleft">姓名（父）：</td>
+									<td class="inputright"><input type="text" name="member2name" id="member2name" style="width: 300px;" maxlength="50"></td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>	
+								<tr>
+									<td class="labelleft">身份证号（父）：</td>
+									<td class="inputright"><input type="text" name="memeber2identityCode" id="memeber2identityCode" style="width: 300px;" maxlength="18"></td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>					
+								<tr>
+									<td class="labelleft">工作单位（父）：</td>
+									<td class="inputright"><input type="text" name="member2unit" id="member2unit" style="width: 300px;" maxlength="50"> （如无工作单位，填写居住地社区全称）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">联系电话（父）：</td>
+									<td class="inputright"><input type="text" name="member2num" id="member2num" style="width: 300px;" maxlength="15">（请填写手机号）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">户籍所在地（父）：</td>
+									<td class="inputright"><input type="text" name="member2accountInArea" id="member2accountInArea" style="width: 300px;" maxlength="50">（请填写户籍所在地详细地址）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">姓名（母）：</td>
+									<td class="inputright"><input type="text" name="member1name" id="member1name" style="width: 300px;" maxlength="50"></td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>									
+								<tr>
+									<td class="labelleft">身份证（母）：</td>
+									<td class="inputright"><input type="text" name="memeber1identityCode" id="memeber1identityCode" style="width: 300px;" maxlength="18"></td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>								
+								<tr>
+									<td class="labelleft">工作单位（母）：</td>
+									<td class="inputright"><input type="text" name="member1unit" id="member1unit" style="width: 300px;" maxlength="50">	（如无工作单位，填写居住地社区全称）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">联系电话（母）：</td>
+									<td class="inputright"><input type="text" name="member1num" id="member1num" style="width: 300px;" maxlength="15">（请填写手机号）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>
+								<tr>
+									<td class="labelleft">户籍所在地（母）：</td>
+									<td class="inputright"><input type="text" name="member1accountInArea" id="member1accountInArea" style="width: 300px;" maxlength="50">（请填写户籍所在地详细地址）
+									</td>
+								</tr>
+								<tr class="tipline">
+									<td class="labelleft"></td>
+									<td class="inputtip"></td>
+								</tr>								
+							</table>	
+						</div>
+                    <div style="padding:15px ;border :solid 1px #33aa33">
+                       <div style='font-size:1.2em;font-weight:bold;color:red'>注意: 正确填完资料 提交后,可能会出现下面2种结果:</div>
+                       <p> <b style='color:red'>失败:</b>{"result":<b style='color:red'>"error"</b>,"ex":"未开始报名！","user":null,"date":null,"message":null}
+                         <br><b>如果失败:请点击浏览器的返回按钮,返回重新操作</b>
+                         <p>
+                         <b  style='color:green'>成功:</b> {"result":<b  style='color:green;font-size:1.5em'>"success"</b>,"ex":"网络报名成功","user":null,"date":null,"message":null}
+
+                       <p> 2. 报名成功后(一定要在成功以后),<a href="http://221.204.177.81:8080/school-admin-web/reg/toReg">点击这里</a> (我也不知道为什么要去这里)
+                    </div>
+						<div>
+							<table>
+								<tr>
+									<td class="labelleft"></td>
+									<td class="inputtip"><button class="btn_submit" id="saveButtonInfo" type="button">手动提交 </button> 请在报名开始前,试2下</td>
+                                     
+								</tr>
+							</table>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--中间内容结束-->
+	<div class="foot">
+		<div class="footcontent">		
+			<br/>	
+			<div style="text-align: center;font-size: 15px;padding-top: 15px;">山西省康乐幼儿园   &nbsp; 地址：太原市桃园南路康乐街 26 号</div>			
+		</div>
+	</div>
+	<div id="loader" style="width:98px;height:98px;position:absolute;top:50%;left:50%;margin-left:-50px;margin-top:-50px;"></div>
+
+    <script>
+    $(function(){
+
+
+          //判断报名时间是否开始
+        var start = new Date($("#startBMDateSet").val().replace("-", "/").replace("-", "/"));
+        var end = new Date($("#endBMDateSet").val().replace("-", "/").replace("-", "/"));
+        var birthdayTemp = "";  
+        var nowTime = new Date();
+        if (nowTime<start) {
+           pageContextDisable();
+           alert("报名未开始，报名开始时间为"+$("#startBMDateSet").val());            
+        }else if(nowTime>end){
+           pageContextDisable();
+           alert("报名已结束，报名截止日期到"+$("#endBMDateSet").val());          
+        }else{
+           
+        }alert("那又如何? 已经破解了, 请继续填写吧"); 
+
+            if(parseInt($("#nowSum").val()) >= parseInt($("#recordSum").val())){
+                pageContextDisable();
+                alert("报名名额已满!");                   
+            }           
+            $("#saveButtonInfo").click(function(){  
+                 
+                 if($("#userName").val()=="" || $("#userName").val().length<2){
+                    alert("请填写正确的幼儿姓名，字符长度2-4");
+                    $("#userName").focus();
+                    return false;
+                }else{                                  
+                    if ($("#userName").val().match(/[^\u4e00-\u9fa5]/g)){
+                        alert("姓名只能输入中文!");
+                        $("#userName").focus();
+                        return false;
+                    }
+                }
+                if($("#sex").val()==""){
+                    alert("请选择幼儿性别!");
+                    $("#sex").focus();
+                    return false;
+                }                        
+                if($("#identityNum").val()==""){
+                    alert("身份证件号不能为空!");
+                    $("#identityNum").focus();
+                    return false;
+                }
+                if($("#brithday").val()==""){
+                    alert("出生日期不能为空!");
+                    $("#brithday").focus();
+                    return false;
+                } 
+                if($("#presentAddress").val()=="" || $("#presentAddress").val().length<5){
+                    alert("幼儿家庭住址不能为空!字符长度5-50");
+                    $("#presentAddress").focus();
+                    return false;
+                }
+                if($("#accountInAreaPolice").val()=="" || $("#accountInAreaPolice").val().length<5){
+                    alert("幼儿户籍所在地不能为空!字符长度5-50");
+                    $("#accountInAreaPolice").focus();
+                    return false;
+                }
+                if($("#member2name").val()=="" || $("#member2name").val().length<2){
+                    alert("姓名（父）不能为空!字符长度2-4");
+                    $("#member2name").focus();
+                    return false;
+                }else{
+                    if ($("#member2name").val().match(/[^\u4e00-\u9fa5]/g)){
+                        alert("家长姓名（父）只能输入中文!");
+                        $("#member2name").focus();
+                        return false;
+                    }
+                }   
+                if($("#memeber2identityCode").val()==""){
+                    alert("身份证号（父）不能为空!");
+                    $("#memeber2identityCode").focus();
+                    return false;
+                }
+                if($("#member2unit").val()=="" || $("#member2unit").val().length<3){
+                    alert("工作单位（父）不能为空!字符长度3-50");
+                    $("#member2unit").focus();
+                    return false;
+                }
+                if($("#member2num").val()==""){
+                    alert("联系电话（父）不能为空!");
+                    $("#member2num").focus();
+                    return false;
+                }
+                if($("#member2accountInArea").val()=="" || $("#member2accountInArea").val().length<5){
+                    alert("户籍所在地（父）不能为空!字符长度5-50");
+                    $("#member2accountInArea").focus();
+                    return false;
+                }
+                if($("#member1name").val()=="" || $("#member1name").val().length<2){
+                    alert("家长姓名（母）不能为空!字符长度2-4");
+                    $("#member1name").focus();
+                    return false;
+                }else{
+                    if ($("#member1name").val().match(/[^\u4e00-\u9fa5]/g)){
+                        alert("家长姓名（母）只能输入中文!");
+                        $("#member1name").focus();
+                        return false;
+                    }
+                }       
+                if($("#memeber1identityCode").val()==""){
+                    alert("身份证（母）不能为空!");
+                    $("#memeber1identityCode").focus();
+                    return false;
+                }
+                if($("#member1unit").val()=="" || $("#member1unit").val().length<3){
+                    alert("工作单位（母）不能为空!字符长度3-50");
+                    $("#member1unit").focus();
+                    return false;
+                }
+                if($("#member1num").val()=="" || $("#member1num").val().length<6){
+                    alert("联系电话（母）不能为空!字符长度6-11");
+                    $("#member1num").focus();
+                    return false;
+                }   
+                if($("#member1accountInArea").val()=="" || $("#member1accountInArea").val().length<5){
+                    alert("户籍所在地（母）不能为空!字符长度5-50");
+                    $("#member1accountInArea").focus();
+                    return false;
+                } 
+
+                $('#_studentForm').submit();
+
+                // $.ajax({
+                //     type : "POST",
+                //     url : $("#_studentForm").attr("action"),
+                //     data : $("#_studentForm").serialize(),  
+                //     beforeSend : function() {                       
+                //         $('#loader').shCircleLoader();   
+                //         $('#saveButtonInfo').attr('disabled',"true");   
+                //         $('#saveButtonInfo').attr('class',"btn_submit2");
+                //     },
+                //     success : function(msg) {
+                //         $('#loader').shCircleLoader('destroy');
+                //         $('#saveButtonInfo').removeAttr("disabled");
+                //         $('#saveButtonInfo').attr('class',"btn_submit");
+                //         if (msg.result == "success") {
+                //             alert("网络报名成功。");
+                //             window.location.href = "http://221.204.177.81:8080/school-admin-web/reg/toReg";                             
+                //         } else {                            
+                //             alert(msg.ex); 
+                //         }
+                //     }
+                // });
+            });     
+     
+                
+        $("#identityType").change(function(){
+            $("#identityNum").val("");  
+            $("#brithday").val("");
+            if($("#identityType").val()=='1'){  
+                $("#identityNum").attr("maxlength",18); 
+            }else{
+                $("#identityNum").attr("maxlength",60); 
+            }
+        });
+                                
+        $("#identityNum").blur(function(){          
+            if($("#identityNum").val()!=""){
+                if($("#identityType").val()=='1'){                          
+                    $.ajax({
+                        type : "GET",
+                        url : 'http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isExistChild?identityNum='+$("#identityNum").val(),                       
+                        success : function(msg) {                   
+                            if (msg.result != "success") {
+                                alert(msg.ex);
+                                $("#identityNum").val("");                          
+                                return false;
+                            }else{
+                                $.ajax({
+                                    type : "GET",
+                                    url : 'http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isIDCardRight?identityNum='+$("#identityNum").val(),                      
+                                    success : function(msg) {                   
+                                        if (msg.result != "success") {
+                                            alert(msg.ex);
+                                            $("#identityNum").val("");                                      
+                                            return false;
+                                        }else{
+                                            $("#brithday").val(msg.ex); 
+                                            birthdayTemp = $("#brithday").val();
+                                        }
+                                    }
+                                });
+                            }
+                        }
+                    });
+                }else{                  
+                    var patrn=/[\W]/g; 
+                    if(patrn.exec($("#identityNum").val())){
+                        $("#identityNum").val("");  
+                        alert("证件号不允许输汉字及特殊字符!");
+                        return false;
+                    }
+                }               
+            }                   
+        });
+        
+        $("#brithday").blur(function(){
+             if($("#identityType").val()=='1'){
+                alert("出生日期必须与身份证信息相符");
+                $("#brithday").val(birthdayTemp);               
+            } 
+        });     
+        
+        $("#memeber1identityCode").blur(function(){         
+            if($("#memeber1identityCode").val()!=""){                                           
+                $.ajax({
+                    type : "GET",
+                    url : 'http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isIDCardRightD?identityNum='+$("#memeber1identityCode").val(),                        
+                    success : function(msg) {                   
+                        if (msg.result != "success") {
+                            alert(msg.ex);
+                            $("#memeber1identityCode").val("");                                     
+                            return false;
+                        }
+                    }
+                });                         
+            }                  
+        });
+        
+        $("#memeber2identityCode").blur(function(){         
+             if($("#memeber2identityCode").val()!=""){                                           
+                $.ajax({
+                    type : "GET",
+                    url : 'http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isIDCardRightD?identityNum='+$("#memeber2identityCode").val(),                        
+                    success : function(msg) {                   
+                        if (msg.result != "success") {
+                            alert(msg.ex);
+                            $("#memeber2identityCode").val("");                                     
+                            return false;
+                        }
+                    }
+                });                         
+            }                  
+        });
+        
+});//  document ready
+    
+    function pageContextDisable(){ 
+    }
+    
+</script>
+</body>
+</html>

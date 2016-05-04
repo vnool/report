@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <script src="http://echarts.baidu.com/dist/echarts.min.js"></script>
+</head>
+
+<body>
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+
+
+    var option = {
+        animation: false, //先关闭动画
+
+
+        legend: {
+            data: ['销量']
+        },
+        xAxis: {
+            data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+        },
+        yAxis: {},
+        series: [{
+            name: '销量',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+        }]
+    };
+
+
+    myChart.setOption(option);
+
+    setTimeout(function() {
+        myChart.setOption({
+            animation: false,
+            series: [{ 
+                    data: [ ]
+                }]
+        });
+        setTimeout(function() {
+            myChart.setOption({
+                animation: true,
+                series: [{
+                    name: '销量',
+                    type: 'bar',
+                    data: [5, 20, 36, 10, 10, 20]
+                }]
+            });
+        }, 50);
+    }, 5000);
+    </script>
+</body>
+
+</html>

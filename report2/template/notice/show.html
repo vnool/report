@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title><?=$profile['title']?></title>
+    <script src="template/public/js/zepto.js"></script>
+    <script type="text/javascript" src="template/public/js/echarts.common.min.js"></script>
+    <script type="text/javascript" src="template/public/js/theme.helianthus.js"></script> 
+
+    <link rel="stylesheet" type="text/css" href="template/notice/css/main.css">
+    <script type="text/javascript" src="template/notice/js/chart.make.js"></script>
+    <style type="text/css">   <?= $profile['style']?>    </style>
+ 
+</head><body>
+<?php  
+
+
+$j=0;
+
+ 
+ 
+foreach ($pages as $key=> $V) {
+    $V['pagetype'] ?: $V['pagetype'] = 'page/normal';
+    $V['pageid']= $j++;
+    TEMPLATE($V['pagetype'] , $V); 
+} 
+?>
+ <script type="text/javascript">
+ var pageMax = <?=$j ?> ;
+ </script> 
+    <script type="text/javascript" src="template/notice/js/touch.use.js"></script>
+
+    <div  class='loopjump'></div>
+</body>
+
+</html>

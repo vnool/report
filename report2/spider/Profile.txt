@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="东方财富F10提供最权威、最全面、最专业的股票基本面分析信息，包括：操盘必读、股东研究、新闻公告、股本结构、经营分析、行业分析、公司概况、财务分析、盈利预测、公司大事、分红融资、资本运作、关联个股、公司高管等。">
+    <meta name="keywords" content="东方财富F10 - 东方财富网、操盘必读、股东研究、新闻公告、股本结构、经营分析、行业分析、公司概况、财务分析、盈利预测、公司大事、分红融资、资本运作、关联个股、公司高管">
+    <title>
+        深赤湾A(000022)公司概况 - F10资料 V2.0 - 东方财富</title>
+    <link rel="stylesheet" type="text/css" href="SoftImg/web.css" />
+    <script type="text/javascript" src="js/jquery-1.2.pack.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/CompanySurvey.js"></script>
+</head>
+
+<body class="tips-scroll" oncontextmenu="javascript:window.event.returnValue=false">
+    <!--菜单-------->
+    <!-------------->
+    <div class="main">
+        <!--页面头部-------------->
+        <link href="http://hqres.eastmoney.com/EMQuote_Lib/css/qphf.css" rel="stylesheet" type="text/css" />
+        <link href="SoftImg/head.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://hqres.eastmoney.com/EMQuote_Lib/js/qphf.js"></script>
+        <script type="text/javascript" src="http://www.eastmoney.com/js/StockSuggest.js" charset="gb2312"></script>
+        <script type="text/javascript" src="http://hqres.eastmoney.com/EMQuote_Lib/js/HisAcc.js" charset="gb2312"></script>
+        <script src="js/f10head.js" type="text/javascript" charset="gb2312"></script>
+        <div class="qphox">
+            <div class="tmbox">
+                <ul>
+                    <li><a target="_blank" href="http://finance.eastmoney.com/">财经</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://finance.eastmoney.com/yaowen.html">要闻</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://stock.eastmoney.com/">股票</a></li>
+                    <li class="i">|</li>
+                    <li><span class="red"><a target="_blank" href="http://stock.eastmoney.com/newstock.html" >新股</a></span></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://stock.eastmoney.com/gzqh.html">期指</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://option.eastmoney.com/">期权</a></li>
+                    <li class="i">|</li>
+                    <li><span class="red"><a target="_blank" href="http://quote.eastmoney.com/flash/sz300059.html" >行情</a></span></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://data.eastmoney.com/">数据</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://stock.eastmoney.com/global.html">全球</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://stock.eastmoney.com/america.html">美股</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://hk.eastmoney.com/">港股</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://futures.eastmoney.com/">期货</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://forex.eastmoney.com/">外汇</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://gold.eastmoney.com">黄金</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://bank.eastmoney.com/">银行</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://www.1234567.com.cn/">基金</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://money.eastmoney.com/">理财</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://insurance.eastmoney.com/">保险</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://bond.eastmoney.com/">债券</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://video.eastmoney.com/">视频</a></li>
+                    <li class="i">|</li>
+                    <li><span class="red"><a target="_blank" href="http://guba.eastmoney.com/" >股吧</a></span></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://fund2.eastmoney.com/">基金吧</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://blog.eastmoney.com/">博客</a></li>
+                    <li class="i">|</li>
+                    <li><a target="_blank" href="http://so.eastmoney.com/">搜索</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="QVspace"></div>
+            <div class="adbox" id="ifhqheadad">
+                <ul>
+                    <li>
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏左按钮 Begin -->
+                        <iframe width="175" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=22&op=1" id="Iframe1"></iframe>
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏左按钮 End -->
+                    </li>
+                    <li id="ov10" style="width:636px;height:90px;">
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏右按钮 Begin -->
+                        <iframe width="636" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=174&op=1" id="Iframe2"></iframe>
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏右按钮 End -->
+                    </li>
+                    <li class="last">
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏右按钮 Begin -->
+                        <iframe width="175" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=23&op=1" id="Iframe3"></iframe>
+                        <!-- AdSame ShowCode: 东方财富网 / 行情 / 行情一屏右按钮 End -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="QVspace"></div>
+            <div class="lgbox">
+                <div class="lbox">
+                    <div class="logo "><a target="_blank" href="http://www.eastmoney.com"><span title="东方财富网"></span><a target="_blank" href="http://quote.eastmoney.com/center/"><span title="行情中心"></span></a></div>
+                    <div class="ogo">
+                        <ul>
+                            <li>
+                                <div class="a"></div><a target="_blank" href="http://kuaixun.eastmoney.com/">全球财经快讯</a></li>
+                            <li>
+                                <div class="b"></div><a target="_blank" href="http://data.eastmoney.com/center/">数据中心</a></li>
+                            <li>
+                                <div class="c"></div><a target="_blank" href="http://wap.eastmoney.com/">手机站</a></li>
+                            <li>
+                                <div class="d"></div><a target="_blank" href="http://stattg.eastmoney.com/10367">客户端</a></li>
+                            <li>
+                                <div class="e"></div><a target="_blank" href="http://choice.eastmoney.com/?adid=953">Choice数据</a></li>
+                            <li class="last">
+                                <div class="f"></div><a target="_blank" href="http://fundact.eastmoney.com/app/?spm=100003.mjj">手机买基金 牛市赚不停></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="QVspace"></div>
+            <div class="mainnbox">
+                <div class="title">
+                    <div class="tit"><b></b>
+                        <div class="nm"><a href="http://quote.eastmoney.com/center/" target="_blank">行情中心</a></div>
+                    </div>
+                </div>
+                <div class="qmbox">
+                    <div class="nbox">
+                        <div class="lbox">
+                            <ul>
+                                <li><a href="http://quote.eastmoney.com/center/index.html#zyzs_0_1" target="_blank">指数</a></li>
+                                <li>|</li>
+                                <li><a href="http://js1.eastmoney.com/tg.aspx?ID=655" target="_blank">期指</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/qiquan.html#1,510050,0_13_0" target="_blank">期权</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/" target="_blank">个股</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/BanKuai.html#_0_2" target="_blank">板块</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/paihang.html#paihang_0_0" target="_blank">排行</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/list.html#285001_0" target="_blank">新股</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/fund.html#_4" target="_blank">基金</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/hkstock.html#_1" target="_blank">港股</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/usstock.html#_2" target="_blank">美股</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/futures.html#_5" target="_blank">期货</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/forex.html#_6" target="_blank">外汇</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/center/gold.html#_7" target="_blank">黄金</a></li>
+                                <li>|</li>
+                                <li><a href="http://quote.eastmoney.com/favor/default.html" target="_blank">自选股</a></li>
+                                <li>|</li>
+                                <li><a href="http://fund.eastmoney.com/favor.html" target="_blank">自选基金</a></li>
+                            </ul>
+                        </div>
+                        <div class="rbox">
+                            <div class="ipbox">
+                                <form method="get" target="_blank">
+                                    <input type="text" value="输代码、名称或简拼" name="StockCode" id="StockCode" autocomplete="off">
+                                </form>
+                            </div>
+                            <div class="btnbox a"><span onclick="qphf.toQuote()" title="查行情"></span></div>
+                            <div class="btnbox b"><span onclick="qphf.toGuBa()" title="搜股吧"></span></div>
+                            <div class="btnbox c"><span onclick="qphf.toNews()" title="搜资讯"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="aide">
+                <div class="global">
+                    <div class="lbox">
+                        <div class="tit"><b></b><a href="http://quote.eastmoney.com/center/global.html#global_3" target="_blank">全球股市</a></div>
+                    </div>
+                    <div class="mbox"><b id="btn_down" class="up" title="下滚"></b><b id="btn_up" class="down" title="上滚"></b></div>
+                    <div class="rbox">
+                        <div id="qqgscont" xvs="0">
+                            <ul>
+                                <li><a href="http://quote.eastmoney.com/zs000001.html" target="_blank" class="blue"><strong>上证</strong></a>：<span><b>-</b> <b>-</b>  <b>-</b></span>(涨:<b>-</b>平:<b>-</b> 跌:<b>-</b>)<a href="http://quote.eastmoney.com/zs399001.html" target="_blank" class="blue"><strong>深证</strong></a>：<span><b>-</b> <b>-</b>  <b>-</b></span>(涨:<b>-</b>平:<b>-</b> 跌:<b>-</b>)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="aide nt">
+                <div class="dcer">
+                    <div class="lbox">
+                        <div class="tit"><b></b><a href="http://js1.eastmoney.com/tg.aspx?ID=517" target="_blank">数据中心</a></div>
+                    </div>
+                    <div class="rbox">
+                        <ul>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=520" target="_blank">新股申购</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=522" target="_blank">新股日历</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=525" target="_blank">资金流向</a></li>
+                            <li><a href="http://quote.eastmoney.com/center/list.html#ah_1   " target="_blank" class="red">AH股比价</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=540" target="_blank">主力排名</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=615" target="_blank">板块资金</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=616" target="_blank">个股研报</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=631" target="_blank">行业研报</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=635" target="_blank">盈利预测</a></li>
+                            <li><a href="http://data.eastmoney.com/stockcomment/" target="_blank">千股千评</a></li>
+                            <li><a href="http://data.eastmoney.com/bbsj/" target="_blank">年报季报</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=693" target="_blank">龙虎榜单</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=695" target="_blank">限售解禁</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=731" target="_blank">大宗交易</a></li>
+                            <li><a href="http://js1.eastmoney.com/tg.aspx?ID=748" target="_blank">期指持仓</a></li>
+                            <li class="last"><a href="http://js1.eastmoney.com/tg.aspx?ID=609" target="_blank">融资融券</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="aide nt">
+                <div class="hgt">
+                    <div class="lbox">
+                        <div class="tit"><b></b><a href="http://quote.eastmoney.com/center/hgtstock.html#_12" target="_blank">沪港通</a></div>
+                    </div>
+                    <div class="rbox">
+                        <div class="lhox"><a href="http://quote.eastmoney.com/center/list.html#28003707_12_2" target="_blank" class="sg">沪股通</a><span class="run" id="hgtrun"></span> 当日资金流入<span id="hgtla">-</span><span class="lx">|</span> 当日余额<span id="hgtlb">-</span><span class="lx">|</span> 限额<span id="hgtlc">-</span></div>
+                        <div class="rhox"><a href="http://quote.eastmoney.com/center/list.html#mk0144_12" target="_blank" class="sg">港股通</a><span class="run" id="ggtrun"></span> 当日资金流入<span id="hgtra">-</span><span class="lx">|</span> 当日余额<span id="hgtrb">-</span><span class="lx">|</span> 限额<span id="hgtrc">-</span></div>
+                    </div>
+                    <div class="gbox">
+                        <iframe width="52" height="29" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://cmsjs.eastmoney.com/same/1223.html"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox">
+            <div class="aide nb">
+                <div class="hisacc">
+                    <div id="histit" class="tit">最近访问：</div>
+                    <div id="historyest" class="list tile"></div>
+                    <div class="tb1105">
+                        <div class="zuhe"><span class="lks"><a href="http://group.eastmoney.com/index.html" target="_blank" class="a"><b></b>投资组合</a>:</span>
+                            <ul id="zhrool" style="width:110px;height:28px;overflow:hidden;" onmouseover="iScrollAmount=0" onmouseout="iScrollAmount=1">
+                                <li><a href="http://group.eastmoney.com/index.html" target="_blank">高手日收益达<span>11%</span></a></li>
+                                <li><a href="http://group.eastmoney.com/index.html" target="_blank">高手周收益达<span>42%</span></a></li>
+                                <li><a href="http://group.eastmoney.com/index.html" target="_blank">高手月收益达<span>83%</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="bglc"><span class="lks"><a href="http://js1.eastmoney.com/tg.aspx?ID=3979" target="_blank" class="b"><b></b>头条</a>:</span><a href="http://js1.eastmoney.com/tg.aspx?ID=3979" target="_blank" class="red">政治局会议：保持股市健康</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" language="JavaScript">
+        var oMarquee = document.getElementById("zhrool");
+        var iLineHeight = 28;
+        var iLineCount = 3;
+        var iScrollAmount = 1;
+
+        function zhrun() {
+            oMarquee.scrollTop += iScrollAmount;
+            if (oMarquee.scrollTop == iLineCount * iLineHeight)
+                oMarquee.scrollTop = 0;
+            if (oMarquee.scrollTop % iLineHeight == 0) {
+                window.setTimeout("zhrun()", 5000);
+            } else {
+                window.setTimeout("zhrun()", 10);
+            }
+        }
+        oMarquee.innerHTML += oMarquee.innerHTML;
+
+        setTimeout(function() {
+            var arg = {
+                text: "输代码、名称或简拼",
+                autoSubmit: true,
+                width: 195,
+                header: ["选项", "代码", "名称", "类型"],
+                body: [-1, 1, 4, -2],
+                callback: function(arg) {}
+            };
+            var ss = new StockSuggest("StockCode", arg);
+
+            qphf.getIndexQuote(6);
+
+            var arg = {
+                def: "",
+                set: "",
+                lns: 0
+            };
+            var HV = new HistoryViews("historyest", arg);
+            zhrun();
+        }, 500);
+        </script>
+        <div class="qphox">
+            <div class="sckifbox">
+                <div class="scklox">
+                    <div class="cnt">
+                        <p class="key">
+                            <b><a href="http://quote.eastmoney.com/sz000022.html"
+                        target="_blank">
+                        深赤湾A</a></b><a href="http://quote.eastmoney.com/sz000022.html" target="_blank">000022</a></p>
+                        <p>
+                            <a href="http://data.eastmoney.com/zjlx/000022.html" target="_blank" class="zldx">
+                            </a>
+                            <a href="http://data.eastmoney.com/report/000022.html" target="_blank" class="zjpm"></a>
+                        </p>
+                        <p>
+                            <a href="http://quote.eastmoney.com/favor/infavor.aspx?code=000022" target="_blank" class="jrzx"></a>
+                            <a href="http://data.eastmoney.com/stock/lhb/000022.html" target="_blank" class="sjhq"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="sckrox">
+                    <div class="upox">
+                        <div class="cnt tof10">
+                            <ul>
+                                <li class="a"><span class="jssz" id="itaa"></span></li>
+                                <li class="b"><b id="itabt"></b><span class="jssz" id="itab"></span></li>
+                                <li class="c"><span class="jssz" id="itac"></span></li>
+                                <li class="d">成交量：<span class="jsszo" id="itad"></span>(手)</li>
+                                <li class="e">成交额：<span class="jsszo" id="itae"></span>(万元)</li>
+                                <li class="f"><span id="itaf"></span></li>
+                                <li class="g">
+                                    <a href="http://quote3.eastmoney.com/f10.aspx?StockCode=000022" target="_blank" alt="查看老版F10"><img src="SoftImg/tof10.png" border="0" alt="查看老版F10" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dnox">
+                        <div class="cnt">
+                            <ul>
+                                <li>今开:<span id="itba"></span></li>
+                                <li>昨收:<span id="itbb"></span></li>
+                                <li>最高:<span id="itbc"></span></li>
+                                <li>最低:<span id="itbd"></span></li>
+                                <li>换手:<span id="itbe"></span></li>
+                                <li>市盈:<span id="itbf"></span></li>
+                                <li>量比:<span id="itbg"></span></li>
+                                <li>振幅:<span id="itbh"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="qphox" id="top-nav">
+            <div class="weftnbox">
+                <ul>
+                    <li class="first "><a class="a-URL" href="OperationsRequired.aspx?code=sz000022&timetip=635975692729115113">
+                操盘必读</a></li>
+                    <li class="current"><a class="a-URL" href="CompanySurvey.aspx?code=sz000022&timetip=635975692729115113">
+                公司概况</a> </li>
+                    <li class=""><a class="a-URL" href="BusinessAnalysis.aspx?code=sz000022&timetip=635975692729115113">
+                经营分析</a> </li>
+                    <li class=""><a class="a-URL" href="CoreConception.aspx?code=sz000022&timetip=635975692729115113">
+                核心题材</a> </li>
+                    <li class=""><a class="a-URL" href="NewsBulletin.aspx?code=sz000022&timetip=635975692729115113">
+                新闻公告</a> </li>
+                    <li class=""><a class="a-URL" href="CompanyBigNews.aspx?code=sz000022&timetip=635975692729115113">
+                公司大事</a> </li>
+                    <li class=""><a class="a-URL" href="ShareholderResearch.aspx?code=sz000022&timetip=635975692729115113">
+                股东研究</a> </li>
+                    <li class=""><a class="a-URL" href="IndustryAnalysis.aspx?code=sz000022&timetip=635975692729115113">
+                同行比较</a> </li>
+                    <li class=""><a class="a-URL" href="ProfitForecast.aspx?code=sz000022&timetip=635975692729115113">
+                盈利预测</a> </li>
+                    <li class=""><a class="a-URL" href="ResearchReport.aspx?code=sz000022&timetip=635975692729115113">
+                研究报告</a> </li>
+                </ul>
+                <ul>
+                    <li class="first "><a class="a-URL" href="FinanceAnalysis.aspx?code=sz000022&timetip=635975692729115113">
+                财务分析</a> </li>
+                    <li class=""><a class="a-URL" href="BonusFinancing.aspx?code=sz000022&timetip=635975692729115113">
+                分红融资</a> </li>
+                    <li class=""><a class="a-URL" href="CapitalStockStructure.aspx?code=sz000022&timetip=635975692729115113">
+                股本结构</a> </li>
+                    <li class=""><a class="a-URL" href="CompanyManagement.aspx?code=sz000022&timetip=635975692729115113">
+                公司高管</a> </li>
+                    <li class=""><a class="a-URL" href="CapitalOperation.aspx?code=sz000022&timetip=635975692729115113">
+                资本运作</a> </li>
+                    <li class=""><a class="a-URL" href="StockRelationship.aspx?code=sz000022&timetip=635975692729115113">
+                关联个股</a> </li>
+                    <li><a href="http://data.eastmoney.com/zjlx/000022.html" target="_blank">资金流向</a></li>
+                    <li><a href="http://data.eastmoney.com/stock/lhb/000022.html" target="_blank">
+                龙虎榜单</a></li>
+                    <li><a href="http://data.eastmoney.com/report/000022.html" target="_blank">
+                机构评级</a></li>
+                    <li><a href="http://data.eastmoney.com/stockcomment/000022.html" target="_blank">智能点评</a></li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var Def = new QTDef('000022', '2');
+        Def.init();
+        </script>
+        <!------------------------>
+        <!--页面内容-------------->
+        <div class="subnav">
+            <a id="jbzl_a" onclick="GoToMaoDian('jbzl',this);" href="#jbzl-0" class="current">基本资料</a>
+            <samp>|</samp><a id="fxxg_a" onclick="GoToMaoDian('fxxg',this);" href="#fxxg-0">发行相关</a>
+        </div>
+        <div class="section first">
+            <div class="name" id="jbzl">
+                <samp class="icon">
+                </samp>
+                <strong>基本资料</strong>
+            </div>
+            <div class="content">
+                <table id="Table0">
+                    <tr>
+                        <th class="tips-fieldnameL" width="174">公司名称</th>
+                        <td class="tips-dataL" colspan="3">深圳赤湾港航股份有限公司</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">英文名称</th>
+                        <td class="tips-dataL" colspan="3">Shenzhen Chiwan Wharf Holdings Limited</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">曾用名</th>
+                        <td class="tips-dataL" colspan="3">深赤湾A->G深赤湾</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL" width="174">A股代码</th>
+                        <td class="tips-dataL" width="242">000022</td>
+                        <th class="tips-fieldnameL" width="174">A股简称</th>
+                        <td class="tips-dataL" width="357">深赤湾A</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">B股代码</th>
+                        <td class="tips-dataL">200022</td>
+                        <th class="tips-fieldnameL">B股简称</th>
+                        <td class="tips-dataL">深赤湾B</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">H股代码</th>
+                        <td class="tips-dataL">--</td>
+                        <th class="tips-fieldnameL">H股简称</th>
+                        <td class="tips-dataL">--</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">证券类别</th>
+                        <td class="tips-dataL">深交所主板A股</td>
+                        <th class="tips-fieldnameL">所属行业</th>
+                        <td class="tips-dataL">港口水运</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">总经理</th>
+                        <td class="tips-dataL">赵强</td>
+                        <th class="tips-fieldnameL">法人代表</th>
+                        <td class="tips-dataL">时伟</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">董秘</th>
+                        <td class="tips-dataL">王永立</td>
+                        <th class="tips-fieldnameL">董事长</th>
+                        <td class="tips-dataL">时伟</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">证券事务代表</th>
+                        <td class="tips-dataL">胡静竞,陈丹</td>
+                        <th class="tips-fieldnameL">独立董事</th>
+                        <td class="tips-dataL">李常青,苏启云,袁宇辉</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">联系电话</th>
+                        <td class="tips-dataL">0755-26694222</td>
+                        <th class="tips-fieldnameL">电子信箱</th>
+                        <td class="tips-dataL">cwh@cndi.com</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">传真</th>
+                        <td class="tips-dataL">0755-26684117</td>
+                        <th class="tips-fieldnameL">公司网址</th>
+                        <td class="tips-dataL" id="CompanyWebId">www.szcwh.com</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">办公地址</th>
+                        <td class="tips-dataL">中国深圳市南山区招商街道赤湾石油大厦八楼</td>
+                        <th class="tips-fieldnameL">注册地址</th>
+                        <td class="tips-dataL">中国深圳市南山区招商街道赤湾石油大厦八楼</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">区域</th>
+                        <td class="tips-dataL">广东</td>
+                        <th class="tips-fieldnameL">邮政编码</th>
+                        <td class="tips-dataL">518067</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">注册资本(元)</th>
+                        <td class="tips-dataL">6.45亿</td>
+                        <th class="tips-fieldnameL">工商登记</th>
+                        <td class="tips-dataL">91440300618832968J</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">雇员人数</th>
+                        <td class="tips-dataL">1447</td>
+                        <th class="tips-fieldnameL">管理人员人数</th>
+                        <td class="tips-dataL">20</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">律师事务所</th>
+                        <td class="tips-dataL">北京市海问律师事务所</td>
+                        <th class="tips-fieldnameL">会计师事务所</th>
+                        <td width="357" class="tips-dataL">德勤华永会计师事务所(特殊普通合伙)</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">公司简介</th>
+                        <td colspan="3" class="tips-dataL tips-lineheight" width="782"> 深圳赤湾港航股份有限公司由中国南山开发(集团)股份有限公司(以下简称"南山集团")于1982年9月投资设立,于1990年7月正式注册为中外合资经营企业。于1993年1月,经深圳市人民政府办公厅以深府办复[1993]357号文批准,改组为股份有限公司,于1993年5月,发行的境、内外社会公众股同时在深圳证券交易所挂牌上市。</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">经营范围</th>
+                        <td colspan="3" class="tips-dataL tips-lineheight" width="782">港口装卸、仓储、港口拖轮经营、港口货物运输、代理及其他业务。</td>
+                    </tr>
+                ro
+            </div>
+        </div>
+        <div class="section">
+            <div class="name" id="fxxg">
+                <samp class="icon">
+                </samp>
+                <strong>发行相关</strong>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th class="tips-fieldnameL" width="174">成立日期</th>
+                        <td class="tips-dataL" width="230">1990-07-19</td>
+                        <th class="tips-fieldnameL" width="167">上市日期</th>
+                        <td class="tips-dataL" width="319">1993-05-05</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">发行市盈率(倍)</th>
+                        <td class="tips-dataL">13.3</td>
+                        <th class="tips-fieldnameL">网上发行日期</th>
+                        <td class="tips-dataL">1993-02-18</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">发行方式</th>
+                        <td class="tips-dataL">其他发行方式</td>
+                        <th class="tips-fieldnameL">每股面值(元)</th>
+                        <td class="tips-dataL">1.00</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">发行量(股)</th>
+                        <td class="tips-dataL">4600万</td>
+                        <th class="tips-fieldnameL">每股发行价(元)</th>
+                        <td class="tips-dataL">3.10</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">发行费用(元)</th>
+                        <td class="tips-dataL">--</td>
+                        <th class="tips-fieldnameL">发行总市值(元)</th>
+                        <td class="tips-dataL">1.43亿</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">募集资金净额(元)</th>
+                        <td class="tips-dataL">1.38亿</td>
+                        <th class="tips-fieldnameL">首日开盘价(元)</th>
+                        <td class="tips-dataL">16.50</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">首日收盘价(元)</th>
+                        <td class="tips-dataL">14.50</td>
+                        <th class="tips-fieldnameL">首日换手率</th>
+                        <td class="tips-dataL">3.98%</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">首日最高价(元)</th>
+                        <td class="tips-dataL">16.50</td>
+                        <th class="tips-fieldnameL">网下配售中签率</th>
+                        <td class="tips-dataL">--</td>
+                    </tr>
+                    <tr>
+                        <th class="tips-fieldnameL">定价中签率</th>
+                        <td class="tips-dataL" colspan="3">--</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!------------------------>
+        <!--页面尾部-------------->
+        <div class="qphox">
+            <div class="QVspace"></div>
+            <div class="foot">
+                <p><a href="#" target="_self" onclick="javascript:this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.eastmoney.com/')">将东方财富网设为上网首页吗？</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_self" onclick="javascript:qphf.addBookEM()">将东方财富网添加到收藏夹吗？</a></p>
+                <p class="sphp"></p>
+                <p class="splp"><a href="http://corp.eastmoney.com/aboutus/" target="_blank">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/Lianxi_guanggao.asp" target="_blank">广告服务</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/Lianxi_lianxi.asp" target="_blank">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/zhaopin/zhaopin_1.asp" target="_blank">诚聘英才</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/lianxi_mianze.asp" target="_blank">免责声明</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/Lianxi_falvshengming.asp" target="_blank">法律声明</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/Lianxi_zhengao.asp" target="_blank">征稿启事</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://corp.eastmoney.com/media.asp" target="_blank">友情链接</a></p>
+                <p class="sphp"></p>
+                <p>建议及投诉热线：021-54509980　值班热线：021-54509988-2345&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://corp.eastmoney.com/Lianxi_liuyan.asp" target="_blank"><img src="http://g1.dfcfw.com/g1/comm/msg.gif" border="0" />意见与建议</a>
+                </p>
+                <p class="sphp"></p>
+                <p>信息网络传播视听节目许可证：0908328号&nbsp;&nbsp;证券投资咨询资质：上海东方财富证券研究所&nbsp;&nbsp;编号：ZX0064</p>
+                <p><img src="http://g1.dfcfw.com/g1/comm/icp.gif" />&nbsp;沪ICP证：沪B2-20070217&nbsp;&nbsp;版权所有：<a href="http://www.eastmoney.com" target="_blank">东方财富网</a></p>
+                <p>
+                    <a href="http://www.cyberpolice.cn/" target="_blank"><img src="http://g1.dfcfw.com/g1/comm/police.gif" border="0" /></a>
+                </p>
+            </div>
+        </div>
+        <script src="http://hqres.eastmoney.com/emquote_lib/js/top.js?w=1000&t=1" type="text/javascript"></script>
+        <script>
+        _cpyno = "c1"
+        </script>
+        <script type="text/javascript" src="http://js4.eastmoney.com/counter.js?c=hq"></script>
+        <script type="text/javascript">
+        window.adDataType = "quote";
+        window.adSwitch = "both";
+        window.fixedBodyWidth = 1000;
+        </script>
+        <script type="text/javascript" src="http://cmsjs.eastmoney.com/public/ad.tools.v2.js"></script>
+        <script type="text/javascript" src="http://cmsjs.eastmoney.com/analysis/emtj.min.js"></script>
+        <script src="http://gbfek.dfcfw.com/tg/EMBottomSearchTG/EMBottomSearchTG-1.0.3.min.js"></script>
+        <script type="text/javascript">
+        var newEMBottomSearchTG = new EMBottomSearchTG({
+            main_img: 'http://z1.dfcfw.com/2015/6/10/201506101028421204226569.jpg', //推广图片  imgurl
+            link: 'http://stattg.eastmoney.com/10266' //推广链接  aurl
+        });
+        newEMBottomSearchTG.show();
+        </script>
+        <script>
+        _cpyno = "c1"
+        </script>
+        <script type="text/javascript" src="http://js4.eastmoney.com/counter.js?c=f10"></script>
+        <!------------------------>
+    </div>
+    <div id="RightMenu">
+        <a id="rm_advise" href="http://corp.eastmoney.com/Lianxi_liuyan_soft.asp?title=东方财富通&sver=7_4108&dflag=f10" target="_blank"></a>
+        <a id="rm_gotop" onclick="javascript:window.scrollTo(0,0);">
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script src="theme.helianthus.js"></script>
+    <script type="text/javascript">
+   
+ 
+ 
+    var myChart;
+    // 路径配置
+    require.config({
+        paths: {
+            echarts: 'http://echarts.baidu.com/build/dist',
+
+        }
+    });
+
+    // 使用
+    require(
+        [
+            'echarts',   
+            'echarts/chart/bar', // 使用柱状图就加载bar模块，按需加载
+            
+        ],
+        function(ec) {
+            // 基于准备好的dom，初始化echarts图表
+              myChart = ec.init(document.getElementById('main'),theme.helianthus);
+
+            var option = {
+                title: {
+                    text: '某地区蒸发量和降水量',
+                    subtext: '纯属虚构'
+                },
+                tooltip: {
+                    trigger: 'axis'
+                },
+                legend: {
+                    data: ['蒸发量', '降水量']
+                },
+                toolbox: {
+                    show: true,
+                    feature: {
+                        mark: {
+                            show: true
+                        },
+                        dataView: {
+                            show: true,
+                            readOnly: false
+                        },
+                        magicType: {
+                            show: true,
+                            type: ['line', 'bar']
+                        },
+                        restore: {
+                            show: true
+                        },
+                        saveAsImage: {
+                            show: true
+                        }
+                    }
+                },
+                calculable: true,
+                xAxis: [{
+                    type: 'category',
+                    data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+                }],
+                yAxis: [{
+                    type: 'value'
+                }],
+                series: [
+                <?php 
+                
+                  for ($i=1; $i< count($DATA);$i++ ) {
+                       $one = $DATA[$i];
+                       $name = $one[0];
+                       array_shift($one);
+                       $one =implodeNum($one);
+                        
+                       $dataStr = implode(',', $one);
+ 
+                  
+                  echo "{
+                    name: '$name',
+                    type: 'bar',
+                    data: [$dataStr],
+                  },";    
+                
+                  } 
+                 
+               //php--- 
+                  ?>
+
+                 ]
+            };
+
+
+            // 为echarts对象加载数据 
+            myChart.setOption(option);
+            //myChart.setTheme('macarons', 'infographic'); 
+            //var te = require('echarts/theme/infographic');
+            // myChart.setTheme(te);
+        }
+    );
+    </script>
+</body>

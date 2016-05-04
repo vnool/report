@@ -1,0 +1,12 @@
+<?
+//prepare
+$title = json_encode($body['title']);
+ 
+
+?>
+<div id="<?=$divID?>" myid="<?=$myID?>"  style="<?=$style?>" onflipOn=""  class="chart bar"   ></div>
+
+
+<script type="text/javascript"> 
+ $CHARDATA["<?=$divID?>"]=  <?=json_encode($body)?> ; 
+</script>
