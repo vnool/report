@@ -47,7 +47,7 @@ function spiderByCode($k ){
 function  getCodes(){
   //return array('300312' );
   //
-  $codes = [];  
+  $codes = array();  
   //深圳
   for($i=1; $i<999; $i++){
      $c =  str_pad($i, 6, "0", STR_PAD_LEFT);
