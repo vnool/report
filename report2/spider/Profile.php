@@ -18,7 +18,7 @@ class Profile
     $code = $this->eastmoneyCode($code);     
     
     $URL = 'http://f10.eastmoney.com/f10_v2/CompanySurvey.aspx?code=' .$code;
-    $this->DATA['stockholder'] = $this->stockTopHolder($URL);  
+    $this->DATA['profile'] = $this->stockTopHolder($URL);  
  
  }
 
