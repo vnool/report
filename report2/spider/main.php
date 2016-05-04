@@ -4,8 +4,8 @@ include "../library/support.php";
 
 $ACTIONS = ['Company','Finance'];
 
-//spiderByAction('Finance');
-spiderByAction('Company');
+spiderByAction('Finance');
+//spiderByAction('Company');
 
 
 
