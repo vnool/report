@@ -5,6 +5,7 @@ include "../library/support.php";
 $ACTIONS = array('Company','Finance');
 
 //spiderByAction('Finance');
+spiderByAction('Company');
 spiderByAction('Profile');
 
 
