@@ -2,7 +2,7 @@
 
 include "../library/support.php";
 
-$ACTIONS = ['Company','Finance'];
+$ACTIONS = array('Company','Finance');
 
 spiderByAction('Finance');
 //spiderByAction('Company');
