@@ -18,9 +18,12 @@ function main($param)
    if(!$data){
      exit('json数据错误');
    }
-
+  
+  getDataValue('Profile'); 
   getDataValue('Finance'); 
   getDataValue('Company'); 
+  global   $_SERIES;
+  $_SERIES['PROFILE']['code'] = $GLOBALS['code_id'];
 
   $data = loopData($data);
   

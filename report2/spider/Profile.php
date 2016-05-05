@@ -1,15 +1,16 @@
 <?php
-/**
-* 
-*/
-// include "../library/support.php";
-// $p = new Profile('300312');
+ 
 
 class Profile  
-{
-  private $KEYS = array( 
+{ 
 
-  );
+  private $KEYS =   array('name' =>'公司名称',
+    'code' =>'A股代码',    
+     'duty'=>'法人代表',   
+      'secretary'=>'董秘',
+     'stock'=>'证券事务代表',  
+      'address' =>'办公地址' ,
+      'tel'=>'联系电话' );
 
  public $DATA;
  function __construct($code){
@@ -47,21 +48,11 @@ public function getall(){
  
 
 public function  specifyFromObject($Object, $rate=''){
-   if($rate=='year')  $rate = array('12'); 
-   if($rate=='quarter')  $rate = ''; 
-   if($rate=='half')  $rate = array('06','09'); 
-   
-
    $data = array();
-   $data['stockholder'] = array();
-   foreach ($Object['stockholder'] as $row) {
-     $data['stockholder'][] =  array('value' => VAL($row['stock']), 'name' => $row['name']);
+   foreach ($this->KEYS as $key => $k) {
+     $data[$key] = $Object['profile'][$k];
    }
-
-  foreach ($Object['products'] as $row) {
-     $data['products'][] =  array('value' => VAL($row['income']), 'name' => $row['name']);
-   } 
-    //var_dump($data);exit;
+   //var_dump($data);exit;
    return $data;
 }
 public function dataFromObject($Object, $key){

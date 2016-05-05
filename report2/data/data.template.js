@@ -1,8 +1,8 @@
 {
     "profile": {
         "companyName": " ",
-        "code": "{{code}}",
-        "title": "{{companyName}} 2015年报吗",
+        "code": "{{PROFILE['code']}} ",
+        "title": "{{PROFILE['name']}} 2015年报吗",
         "subtitle": "@{{FINANCE['MainTarget.YingYeShouRu']['header']}}",
         "style": ".PAGE{background-image:url(template/notice/imgs/bg_2.jpg);background-size: 100%;color:#000} a{color:blue}"
     },
@@ -12,7 +12,7 @@
             "style": "background:url(template/notice/imgs/bg_107.jpg); ",
             "elements": [{
                 "type": "text",
-                "body": "{{companyName}} 2015年报",
+                "body": "{{PROFILE['name']}} 2015年报",
                 "animate--": "flyCenter",
                 "style": "margin-top:10%;color:white;font-size:1.2em",
                 "css": "center"
@@ -22,6 +22,34 @@
                 "style": "margin-top:20%;color:#ff0;",
                 "css": "center",
                 "animate": "flyCenter"
+            }, {
+                "type": "text",
+                "body": "",
+                "style": "margin-top:10%; font-size:1.2em",
+                "css": "center"
+            }, {
+                "type": "text",
+                "body": "2016-4-20",
+                "style": "bottom:20%;color:#eee;font-size:0.9em",
+                "css": "absolute center"
+            }]
+
+        },{
+            "title": "xxx",
+            "phone": 888,
+            "style": "background:url(template/notice/imgs/bg_107.jpg); ",
+            "elements": [{
+                "type": "text",
+                "body": "{{PROFILE['name']}} 基本情况",
+                "animate--": "flyCenter",
+                "style": "margin-top:10%;color:white;font-size:1.2em",
+                "css": "center"
+            }, {
+                "type": "text",
+                "body": "<li>公司名称：  {{PROFILE['name']}}             <li>股票代码：{{PROFILE['code']}}             <li>法人代表：{{PROFILE['duty']}}                <li>董事会秘书：{{PROFILE['secretary']}}                   <li>证券事务代表：{{PROFILE['stock']}}           <li>公司地址：{{PROFILE['address']}}    <li>联系电话: {{PROFILE['tel']}} ",
+                "style": "margin-top:10%;margin-left:10%;color:#ff0; font-size:0.9em; text-align: left",
+                "css": " ",
+                "animate": ""
             }, {
                 "type": "text",
                 "body": "",
