@@ -2,12 +2,13 @@
 
 include "../library/support.php";
 
-$ACTIONS = array('Company','Finance');
+$ACTIONS = array('Company','Finance','Profile');
 
-//spiderByAction('Finance');
-spiderByAction('Company');
-spiderByAction('Profile');
-
+foreach ($ACTIONS as $act) {
+ 
+  spiderByAction( $act );
+}
+ 
 
 
 function spiderByAction($action){
@@ -17,14 +18,24 @@ function spiderByAction($action){
   $codes = getCodes();
 
   foreach ($codes as  $c) {
-      echo "\n $c"; 
+       echo "\n $c"; 
+       $path = "data/$action/".$c;
+       if($argv[1]!='rebuild'){
+          if(is_file($path)){
+            echo " exists";
+            continue;
+         }
+       }
+       
+
       $ev = new $action($c);
       $data = $ev->getall();
-
-      cache_save("data/$action/".$c, $data);    
+        
       if(!$data){
         echo " failed"; 
-      }      
+      }else{
+        cache_save($path, $data);  
+      }   
   }
 }
 
