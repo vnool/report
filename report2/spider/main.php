@@ -21,7 +21,7 @@ function spiderByAction($action){
        echo "\n $c"; 
        $path = "data/$action/".$c;
        if($argv[1]!='rebuild'){
-          if(is_file($path)){
+          if(is_file($path.'.php')){
             echo " exists";
             continue;
          }
