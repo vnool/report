@@ -238,6 +238,9 @@
 				</div>
 			</div>
 	</div>
+    身份证是否已经登记： http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isExistChild?identityNum=140106201308170109
+    <br>身份证年龄是否能报名：http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/isIDCardRight?identityNum=140106201308170109
+
 	<!--中间内容结束-->
 	<div class="foot">
 		<div class="footcontent">		
@@ -407,7 +410,8 @@
             }
         });
                                 
-        $("#identityNum").blur(function(){          
+        $("#identityNum").blur(function(){
+            return;
             if($("#identityNum").val()!=""){
                 if($("#identityType").val()=='1'){                          
                     $.ajax({
@@ -448,10 +452,10 @@
         });
         
         $("#brithday").blur(function(){
-             if($("#identityType").val()=='1'){
-                alert("出生日期必须与身份证信息相符");
-                $("#brithday").val(birthdayTemp);               
-            } 
+            //  if($("#identityType").val()=='1'){
+            //     alert("出生日期必须与身份证信息相符");
+            //     $("#brithday").val(birthdayTemp);               
+            // } 
         });     
         
         $("#memeber1identityCode").blur(function(){         
