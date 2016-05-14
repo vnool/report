@@ -240,7 +240,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "产品收入布局分布",
+                "body": "产业布局",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -283,162 +283,13 @@
                 }
             }, {
                 "type": "text",
-                "body": "新概念新产品,产业布局,",
+                "body": "",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
             "end": "-----------------------------------------------------------------------"
 
-        },   
-        {
-            "pagestart": "-----------------------------------------------------",
-            "phone": 888,
-            "style": " ",
-            "elements": [{
-                "type": "text",
-                "body": "控(持)股子公司",
-                "style": "font-size:1.2em",
-                "animate": "flyCenter"
-            }, {
-                "type": "chart",
-                "style": "margin-top:-5%;height:90%",
-                "body": { 
-                    "xAxis": [],
-                    "series": [{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "10%"],
-                        "data": [{
-                            "value": 80,
-                            "name": "北京汇金讯通网络科技有限公司(80%)"
-                        }, {
-                            "value": 20,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "20%"],
-                        "data": [{
-                            "value": 100,
-                            "name": "|                                              上海海纳通科技有限公司(100%)",
-                            "label": {
-                                "normal": {
-                                    "show": true,
-                                    "position": "center"
-                                } 
-                            },
-                            "labelLine": {
-                                "normal": {
-                                    "show": "true",
-                                    "length": -10,
-                                    "length2" :200
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "30%"],
-                        "data": [{
-                            "value": 63.3,
-                            "name": "北京点翼科技有限公司\n(63.3%)" 
-                        }, {
-                            "value": 36.7,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "40%"],
-                        "data": [{
-                            "value": 35,
-                            "name": "深圳海纳通物联网发展有限公司(35%)"
-                        },{
-                            "value": 65,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "50%"],
-                        "data": [{
-                            "value": 35,
-                            "name": "邦讯物联技术有限公司(35%)"
-                        },{
-                            "value": 65,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "60%"],
-                        "data": [{
-                            "value": 30,
-                            "name": "北京邦讯智联科技有限公司(30%)"
-                        },{
-                            "value": 70,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    },{
-                        "type": "pie",
-                        "roseType000": "angle---",
-                        "radius": ["0%", "10%"],
-                        "center": ["10%", "70%"],
-                        "data": [{
-                            "value": 15,
-                            "name": "宁波摩根设计有限公司(15%)"
-                        }, {
-                            "value": 85,
-                            "name": "",
-                            "labelLine": {
-                                "normal": {
-                                    "show": false
-                                }
-                            }
-                        }]
-                    }]
-                }
-            }, {
-                "type": "text",
-                "body": "新概念新产品,产业布局,",
-                "style": " font-size:0.9em",
-                "css": "absolute center"
-            }],
-            "end": "-----------------------------------------------------------------------"
-
-        },       {
+        } ,       {
             "PAGE_START": "------------OK1--------------",
             "title": "营业收入",
             "phone": 888,
