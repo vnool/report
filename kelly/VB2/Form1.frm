@@ -59,6 +59,14 @@ Begin VB.Form RegMyKid
       Top             =   600
       Width           =   1350
    End
+   Begin VB.Label Label4 
+      Caption         =   "另外一个版本"
+      Height          =   240
+      Left            =   1650
+      TabIndex        =   7
+      Top             =   225
+      Width           =   1590
+   End
    Begin VB.Shape Shape1 
       BackStyle       =   1  'Opaque
       Height          =   330
@@ -130,8 +138,7 @@ End Sub
   XMLHTTP.Open "POST", StrUrl, True
   XMLHTTP.setRequestHeader "Content-Length", Len(PostData)
   XMLHTTP.setRequestHeader "CONTENT-TYPE", "application/x-www-form-urlencoded"
-  XMLHTTP.setRequestHeader "Host", "221.204.177.81:8080"
-  XMLHTTP.setRequestHeader "Referer", "http://221.204.177.81:8080//school-admin-web/reg/toReg"
+  XMLHTTP.setRequestHeader "Host", "sxsklyey.ankang06.org"
   XMLHTTP.send (StrData)
   
   Do Until XMLHTTP.ReadyState = 4
@@ -162,17 +169,23 @@ End Sub
   Debug.Print PostData
   TryCount = TryCount + 1
   
-  If InStr(PostData, "success") > 0 Then
-    Label1 = "报名成功了！！"
-    Call setSsuccess
-  ElseIf (InStr(PostData, "error")) > 0 Then
-    Label1 = "尝试第" + CStr(TryCount) + "次..."
-  ElseIf InStr(PostData, "result") < 1 Then
-    Label1 = "服务器返回异常"
-  Else
-    Label1 = "unknow"
-    Call setSsuccess
-  End If
+  
+  
+ If (PostData = "1") Then
+      MsgBox ("恭喜您,报名成功！")
+     Call setSsuccess
+ ElseIf PostData = "100" Then
+     Label3 = ("非常抱歉,该园报名时间还没有开始!")
+           
+ ElseIf PostData = "1000" Then
+    Label3 = "不一定是结束了 "
+          
+ Else
+    Label3 = "报名失败！"
+          
+End If
+   Label1 = "第" + CStr(TryCount) + "次尝试"
+   
  
   Exit Function
 ERR:
@@ -211,7 +224,7 @@ End Sub
 
 Private Sub Timer1_Timer()
    Dim Post$, Url$
-   Url$ = "http://221.204.177.81:8080/school-admin-web/school/tsStudentInfo/saveInfo"
+   Url$ = "http://sxsklyey.ankang06.org/school/onlineapply/addOnlineapply/"
    '  Url$ = "http://localhost/report/kelly/test.php"
    Post$ = Replace(Replace(Text1.Text, vbLf, ""), vbCr, "")
    PostData Url$, Post$

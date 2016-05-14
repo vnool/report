@@ -1,6 +1,6 @@
 <?php
 
- define('WELCOME_MSG',"自由聊天，查询天气，故事,笑话，机票，翻译，百科，星座运程，菜谱....  ");
+ define('WELCOME_MSG',"自由聊天，查询天气，故事,笑话，机票，翻译，百科，星座运程，上市公司年报, 菜谱....  ");
 
 function checkSpecial($q)
 {
@@ -108,22 +108,21 @@ $specailword = array(
    
 }
 function talkfunc_stock($q){ 
-    $msg ='[news]';
-    $row = array();
-    $row['picurl'] = 'http://phpdesk.sinaapp.com/report2/template/notice/imgs/sample.png';
-    $getNameUrl = 'http://phpdesk.sinaapp.com/report2/?notice/info&code=' .$q;
-    $name = file_get_contents($getNameUrl);
-    if(!$name) {
-      $name = $q .'公司';
-    }else{
-      if(strlen($name) > 7){
-        $name = substr($name,0,7) .'...';
-      }
+
+    include "stockReport/stockReport.php";
+    $ret = STOCK($q);
+
+    if($ret['action']!='[news]'){
+      return $ret['action'];
     }
-    $row['title'] = $name."2015年报";
-    $row['description'] = $name. "2015年报";
+    
+    $row = array();
+    $row['picurl'] = $ret['picurl'];
+    $row['title'] = $ret['title'];
+    $row['description'] = $ret['title'];
+    $row['link']  = $ret['link'];
     $GLOBALS['msg_ext'][] = $row ;
-    return $msg;
+    return $ret['action'] ;
 }
 function talkfunc_phplogin($q){ 
 	$url ="http://ding.scicompound.com/phpencode/index.php?view=login&func=login&key=".$q;

@@ -64,12 +64,12 @@
 
         }, {
             "PAGE_START": "------------OK 0--------------",
-            "title": "产业分布",
+            "title": "产业布局",
             "phone": 888,
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "产业分布",
+                "body": "产业布局",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -81,7 +81,7 @@
                         "x": "center"
                     }, 
                     "series": [{
-                        "name" :"产业分布",
+                        "name" :"产业布局",
                         "type": "pie",
                         "data": "@{{COMPANY['products']}}"
                     } ]
@@ -89,7 +89,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "产业分布产业分布 产业分布。",
+                "body": " 生态体系蓬勃发展",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -114,7 +114,7 @@
                         "x": "center"
                     }, 
                     "series": [{
-                        "name" :"产业分布",
+                        "name" :"十大股东股份占比",
                         "type": "pie",
                         "data": "@{{COMPANY['stockholder']}}"
                     } ]
@@ -122,7 +122,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "产业分布产业分布 产业分布。",
+                "body": "强大的战略联盟",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -156,7 +156,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "在行业趋势放缓情况下，仍然坚持同比增长50%,形式一片大好。",
+                "body": "规模收入奠定持续发展基础",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],

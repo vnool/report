@@ -283,7 +283,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "",
+                "body": "生态体系蓬勃发展",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -317,7 +317,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "在行业趋势放缓情况下，仍然坚持同比增长50%,形式一片大好。",
+                "body": "规模收入奠定持续发展基础",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],

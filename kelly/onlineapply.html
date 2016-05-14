@@ -1,0 +1,499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>园所在线报名</title>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/school/css/page.css"/>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/css/boxy.css"/>
+<script src="http://sxsklyey.ankang06.org/notice/www/static/public/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="http://sxsklyey.ankang06.org/notice/www/static/public/js/My97DatePicker/WdatePicker.js"></script>
+<script language="JavaScript" type="text/javascript" src="http://sxsklyey.ankang06.org/notice/www/static/activity/2013WebsiteEvaluation/js/jquery.city.js"></script>
+<script language="JavaScript" type="text/javascript" src="http://sxsklyey.ankang06.org/notice/www/static/school/js/jquery.school_online.js"></script>
+<link href="http://sxsklyey.ankang06.org/notice/www/static/public/js/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css" />
+<script src="http://sxsklyey.ankang06.org/notice/www/static/public/js/jquery.boxy.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://sxsklyey.ankang06.org/notice/www/static/floater/js/floater_image.js"></script>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/diyUpload/css/webuploader.css">
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/diyUpload/css/diyUpload.css">
+<script type="text/javascript" src="http://sxsklyey.ankang06.org/notice/www/static/public/diyUpload/js/webuploader.min.js"></script>
+<!-- html5only. -->
+<script type="text/javascript" src="http://sxsklyey.ankang06.org/notice/www/static/public/diyUpload/js/diyUpload.js"></script>
+<style type="text/css">
+#attech {
+    width: 590px;
+    min-height: 30px;
+    overflow: hidden;
+    margin-left: 118px;
+    top: -29px;
+}
+.parentFileBox{
+    width: 720px !important;
+    margin-left: 100px !important;
+}
+</style>
+</head>
+   
+<body class="onlineRegistration_bg">
+	
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/css/common_style.css">
+
+<style type="text/css">
+#top{width:100%; height:39px; border-bottom:1px solid #DCDCDC;background-color:#F9F9F9; position:fixed; top:0; left:0; z-index:300;}
+.topCont{width:1001px; height:43px; margin:0 auto;}
+/*.topLeft{width:640px; height:19px; padding:12px 0; float:left;}
+.topLeft a:link,.topLeft a:visited{padding:0 15px; font-family:"微软雅黑"; font-size:16px; color:#666;}
+.topLeft a:hover{text-decoration:underline;}*/
+
+
+
+
+
+.topLeft{width:746px; height:38px; float:left;}
+.topLeft li{ padding:0 18px; height:38px; line-height:38px; float:left;font-size:14px; color:#666;}
+.topLeft li.current{border-left:1px solid #DCDCDC;border-right:1px solid #DCDCDC;padding:0 17px; background-color:#fff;}
+.topLeft li.current a{color:#0089CD;}
+.topLeft li a:link,.topLeft li a:visited{font-size:16px;color:#666;font-family:"微软雅黑";}
+.topLeft a:hover{text-decoration:underline;}
+#df{position:relative;}
+#df_content{display:none; width:250px; min-height:18px; border:1px solid #ddd; overflow:hidden; background-color:#fff; position:absolute; left:-1px; top:38px; padding:10px 20px;font-size:12px;}
+#df_content a:link,#df_content a:visited{text-decoration:none; font-family:"宋体"; font-size:12px; padding:0 10px;}
+#df_content a:hover{color:#0089CD; text-decoration:underline;}
+
+/*.topRight{width:255px; height:43px; line-height:43px; float:right; text-align:right;font-family:"微软雅黑"; font-size:14px;color:#666;  padding:0px 0;}
+.topRight a:link,.topRight a:visited{font-family:"微软雅黑"; font-size:14px; padding:0 6px; color:#666;}
+.topRight a:hover{color:#0389D0;}*/
+
+</style>
+<div class="browserVersion hide" style="top:40px;">
+        <div class="browserVersion_inner">
+            <font class="left">系统检测您的</font>
+            <font class="color_black1 left">浏览器版本较低</font>
+            <font class="left">，可能会影响网页功能的使用，</font>
+            <font class="color_gray2 left">请点击右侧图标，升级或下载其他浏览器：</font>
+            <a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank" class="left browserIco"><img src="http://sxsklyey.ankang06.org/notice/www/static/public/images/ieBrowser.png"/></a>
+            <a href="http://d.union.ijinshan.com/liebao/link/ksbinstaller_s_66_58866.exe" target="_blank" class="left browserIco"><img src="http://sxsklyey.ankang06.org/notice/www/static/public/images/liebaoBrowser.png"/></a>
+            <a href="http://www.google.cn/chrome/eula.html?hl=zh-CN&platform=win" target="_blank" class="left browserIco"><img src="http://sxsklyey.ankang06.org/notice/www/static/public/images/chromeBrowser.png"/></a>
+            <span class="close_btn" onclick="closeBrowser()">关闭</span>
+        </div>
+    </div>
+
+<!-- <div id="top">
+    <div class="topCont">
+        <div class="topLeft"><a href="#" target="_blank">地方频道</a><span>|</span><a href="http://edu.ankang06.org/" target="_blank">数字幼儿园</a><span>|</span><a href="http://ankang06.org/uc/search" target="_blank">幼儿园查询</a><span>|</span><a href="http://www.ankang06.org/activity/topic/hezuo" target="_blank">合作专区</a>|</span><a href="http://www.ankang06.org/activity/topic/abouts" target="_blank">关于我们</a><span>|</span><a href="http://www.ankang06.org/activity/topic/trial" target="_blank">产品试用</a></div>
+        <div class="topRight"><a href="/uc/login" >登录</a>|<a href="/uc/register">注册</a>&nbsp;&nbsp;<a href="http://211.103.152.135:8800/hdwiki/index.php?category-view-3">帮助</a></div>
+    </div>
+</div> --><!--onclick="showBg()" -->
+
+
+<div id="top">
+    <div class="topCont">
+        <ul class="topLeft">
+        <li id="df">
+            <a href="#">地方频道&nbsp;<img src="http://sxsklyey.ankang06.org/notice/www/static/img_linshi/biaoji.jpg" width="9" height="5" /></a>
+            <div id="df_content">
+                 中心城市：<a href="http://cms.ankang06.org/index/index/topic/4" target="_Blank">哈尔滨</a> <a href="http://cms.ankang06.org/index/index/topic/5" target="_Blank">长沙</a><!--<a href="#">上海</a> -->
+            </div>
+        </li>
+        <li><a href="http://edu.ankang06.org/" target="_blank">数字幼儿园</a></li>
+        <li><a href="http://ankang06.org/uc/search" target="_blank">幼儿园查询</a></li>
+        <li><a href="http://www.ankang06.org/activity/topic/trial" target="_blank">产品试用</a></li>
+        <li><a href="http://www.ankang06.org/activity/exhi" target="_blank">展会信息</a></li>
+       <!--  <li><a href="http://www.ankang06.org/activity/topic/hezuo" target="_blank">合作专区</a></li>
+        <li><a href="http://www.ankang06.org/activity/topic/abouts" target="_blank">关于我们</a></li> -->
+        <li><a href="http://www.ankang06.org/activity/exhi/meetlst" target="_blank">会议活动</a></li>
+         <li><a href="http://www.ankang06.org/activity/topic/kim" target="_blank">KIM</a></li>
+        </ul>
+        <div class="topRight"><a href="/uc/login" >登录</a>|<a href="/uc/register">注册</a>&nbsp;&nbsp;<a href="http://211.103.152.135:8800/hdwiki/index.php?category-view-3">帮助</a></div>
+    </div>
+</div>
+
+
+ 
+  <script type="text/javascript">
+    $(function(){
+        $("#top .topLeft #df").bind("mouseover",function(){
+           
+            $(this).addClass("current");
+            $("#df_content").show();
+                    
+        });
+        $("#top .topLeft #df").bind("mouseleave",function(){
+            $(this).removeClass("current");
+            $("#df_content").hide();
+        });
+                
+                
+    })
+        </script>
+<script type="text/javascript">
+$(function(){
+
+    /**判断浏览器版本并提示  开始**/
+    var Sys = {};
+    var ua = navigator.userAgent.toLowerCase();
+    var s;
+    (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+    (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+    (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+    (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+    (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+    
+    if(Sys.ie<7){
+        $(".browserVersion").slideDown(500);
+    }
+    /**判断浏览器版本并提示  结束**/
+        
+    /**判断浏览器分辨率 开始**/
+    if(screen.width<=800){
+        $(".topfixed1_inner").css("width","auto");
+    }
+    /**判断浏览器分辨率 结束**/   
+        
+});
+$('.close_btn').click(function(){
+
+    $('.browserVersion').hide();
+})
+/**登录注册-导航条选中特效  开始**/
+$(".topfixed1_inner .a1").mouseover(function(){
+    var icoClass =$(this).find("span").attr("class");
+    $(this).find("span").attr("class",icoClass+"_selected");
+    $(this).css("color","#7ca404");
+}).mouseout(function(){
+    var icoClass1 = $(this).find("span").attr("class");
+    var icoClass2 = icoClass1.substring(0,icoClass1.lastIndexOf('_'));
+    $(this).find("span").attr("class",icoClass2);
+    $(this).css("color","#333333");
+});
+/**登录注册-导航条1选中特效  结束**/
+
+/**其他页面-导航条特效  开始**/
+function close_mailMessageTip(){
+    $(".mailMessage_tip").hide();
+}
+
+$(".setManage").mouseenter(function(){
+    $(this).find(".a3").css({"height":"35px","background":"#9dd100","margin-top":"5px","border-radius":"4px 4px 0 0"}); 
+    var icoClass =$(this).find("span").attr("class");
+    $(this).find("span").attr("class",icoClass+"_selected");
+    $(".userManageMenu").hide();
+    $(".userManage_btn2").attr("class","userManage_btn1");
+    $(".setManagemenu").show();
+}).mouseleave(function(){
+    $(this).find(".a3").css({"height":"40px","background":"none","margin-top":"0px"});
+    var icoClass1 = $(this).find("span").attr("class");
+    var icoClass2 = icoClass1.substring(0,icoClass1.lastIndexOf('_'));
+    $(this).find("span").attr("class",icoClass2);
+    $(".setManagemenu").hide();
+});
+
+
+$(".userName span").mouseover(function(){
+    var userManage_btn = $(this).attr("class");
+    if(userManage_btn=="userManage_btn1"){
+        $(".userManageMenu").show();
+        $(this).attr("class","userManage_btn2");
+    }else if(userManage_btn=="userManage_btn2"){
+        $(".userManageMenu").hide();
+        $(this).attr("class","userManage_btn1");
+    }
+});
+
+$(".userManageMenu").mouseleave(function(){
+    $(".userManageMenu").hide();
+    $(".userName").find("span").attr("class","userManage_btn1");
+});
+/**其他页面-导航条特效  结束**/
+
+/**班级管理-选择班级 班级选中效果 开始**/
+function chooseClass_select(className){
+    var name = $(className).attr("class");
+    if(name==""){
+        $(className).attr("class","li1");
+        $(className).siblings().attr("class","");
+    }else if(name=="li1"){
+        $(className).attr("class","");
+    }
+    $('#confirm_class').attr("value",$(className).attr("value"));   
+}
+/**班级管理-选择班级 班级选中效果 开始
+
+/* 管理班级列表 */
+function manageClassList(isfront){
+    var chooseClass_title = '选择班级';
+    var chooseClass_content = '<div class="chooseClass_boxy f14 left"><div class="chooseClass_boxy_content left"><ul id="myClassList" class="chooseClass_list left"></ul></div><div class="chooseClass_boxy_operation left" style="margin-top:10px;"><span class="cancel_btn1 right mr10" onclick="promptDialog_box_remove();">取消</span><span id="confirm_class" class="confirm_btn1 right mr10">确定</span></div></div>';
+    promptDialog_box(chooseClass_title,chooseClass_content);
+    $.getJSON('/ajax/code/myClassList',{stamp:Math.random()},function(data){
+        if(data){
+            $.each(data,function(i,v) {
+                $('#myClassList').append('<li value="'+v.class_id+'" onclick="chooseClass_select(this)">'+v.classname+'</li>');
+            });
+        }else{
+            $('.chooseClass_boxy_content').html('<div class="noClass_tip1 left"><div style="display:inline-block;"><span class="f14 color_gray1 mr10 left">您目前没有班级管理权限！</span><a href="/admin/class"><span class="addClass_btn ml10" style="float:left;"><img src="http://sxsklyey.ankang06.org/notice/www/static/admin/images/add_ico.png" class="left"/><font class="left">添加班级</font></span></a></div>');
+        }
+        $('#confirm_class').attr('isfront',isfront);
+    });
+}
+
+/* 选中要管理的班级 */
+$('#confirm_class').live('click',function(){
+    var classid = $('#confirm_class').attr("value");
+    if(classid==undefined){
+        promptDialog_box_remove();
+    }else{
+        if($('#confirm_class').attr("isfront")==1){
+            window.location="http://"+classid+".class.ankang06.org/";
+        }else{
+            window.location='http://www.ankang06.org/class/index/?classid='+classid;
+        }
+    }
+});
+
+function clickNum(type){
+    $.getJSON('/uc/login/clickNum',{'type':type},function(msg){
+        location.replace(location.href);
+    });
+}
+</script>
+
+<style type="text/css">
+body,p,ul,li,input{margin:0; padding:0; border:0; list-style:none; /*color:#999; font-size:14px;*/font-family:"宋体";}
+a{ text-decoration:none;}
+.full_bg{background-color:gray; position:absolute; top:0; left:0; z-index:10;opacity:0.5; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; min-height:1000px;}
+.load_wrap{width:400px; height:295px; border:1px solid #E2E2E2; border-radius:3px; background-color:#fff; position:absolute; top:50%; left:50%; margin:-160px 0 0 -200px; z-index:20; display:none; padding:5px 0 0px;} 
+.load_title{width:400px; height:25px; line-height:25px; font-family:"微软雅黑";font-size:18px; color:#0588CE; text-align:center; margin-bottom:10px;}
+ul.load_text{width:280px; height:88px; border:1px solid #E2E2E2;border-radius:3px; padding:0 9px; margin:0 auto;}
+ul.load_text li{width:280px; height:43px; border-bottom:1px solid #E2E2E2;}
+ul.load_text li input{width:250px; height:43px; padding-left:30px;}
+ul.load_text li input#text{background:url(http://sxsklyey.ankang06.org/notice/www/static/img_linshi/zhanghao_bg.jpg) no-repeat 5px center;}
+ul.load_text li input#pass{background:url(http://sxsklyey.ankang06.org/notice/www/static/img_linshi/mima_bg.jpg) no-repeat 5px center;}
+input#load_sub{width:300px; height:40px; background:url(http://sxsklyey.ankang06.org/notice/www/static/img_linshi/load_btn.jpg) no-repeat left center; cursor:pointer;margin:0 auto;}
+ul.load_wz{width:300px; height:37px;margin:0 auto;}
+ul.load_wz li{width:150px; height:37px; line-height:37px; float:left;}
+p.regist{width:300px; height:48px; line-height:48px;margin:0 auto;font-family:"微软雅黑";}
+p.regist a:link,p.regist a:visited{color:#0389D0;font-family:"微软雅黑";}
+.bottom{width:300px; height:44px; line-height:44px; background-color:#FCFCFC; border-top:1px solid #e2e2e2; padding: 0 50px;}
+.bottom img{ vertical-align:middle;}
+p.close{width:380px; height:15px; text-align:right; cursor:pointer;}
+</style>
+<link rel="stylesheet" type="text/css" href="http://sxsklyey.ankang06.org/notice/www/static/public/css/login.css"/>
+
+
+
+
+<script type="text/javascript">
+    function showBg(){
+        var bh=$("body").height(); 
+        var bw=$("body").width();
+        $(".full_bg").css({height:bh,width:bw,display:"block"});
+        $(".load_wrap").css("display","block");
+        }
+    function closeBg(){
+        $(".full_bg,.load_wrap").hide();    
+
+            }
+    function checklogin(){
+        // var password = $("#pass").val();
+        // var username = $("#text").val(); 
+        var flag = true;
+         $.ajax({
+             type: "POST",
+            async:false,
+            cache:false, 
+             url: "/uc/login/ajaxlogin",
+             data: {username:$("#text").val(), password:$("#pass").val()},
+             dataType: "json",
+             success: function(data){
+             
+                         if(data<0){
+                            $("#dui").hide();
+                             $("#cuo").show();
+                             
+                            flag = false;
+                         }
+                       
+                 }
+         });
+        if(!flag)
+        return false;
+        
+    }
+</script>
+
+
+
+
+<!--logo end-->
+    <div class="onlineRegistration_banner"></div>
+    <div class="onlineRegistration_top"><div class="pencil_ico"></div></div>
+    <div class="onlineRegistration_middle">
+    	<div class="registrationDetailed left mt30">
+        	<label>园所名称：</label>
+            <div class="registrationDetailed_right1 left">
+            	山西省康乐幼儿园            </div>
+        </div>
+        <div class="registrationDetailed left mt30">
+        	<label>招生简章：</label>
+            <div class="registrationDetailed_right2 left">
+            	            </div>
+        </div>
+        <div class="registrationDetailed left mt30">
+        	<label>在线报名流程：</label>
+            <div class="registrationDetailed_right1 left">
+            	            </div>
+        </div>
+        <div class="registrationDetailed left mt30">
+        	<label>在线报名时间：</label>
+            <div class="registrationDetailed_right1 left">
+            	1970年01月01日—1970年01月01日            </div>
+        </div>
+        <div class="registrationTable left mt30">
+        	<div class="registrationTable_title left"></div>
+        	<input type="hidden" name="schoolid" id="schoolid" value="42539"/>
+        	<p><label>宝宝姓名：</label><input name="username" id="username" type="text" onblur="_this.checkusername();" class="common_text1 left ml20" style="width:230px;"/></p>
+            <p><label>性别：</label><select name="sex" id="sex" class="common_select1 left ml20"><option value="1">男</option><option value="2">女</option></select></p>
+            <p>
+            	<label>出生日期：</label>
+            	<input name="birthday" id="birthday" type="text" class="common_text1 left ml20" style="width:120px;" onClick="WdatePicker({maxDate:'%y-%M-%d'})" type="text" class="boxy_text1" style="width:120px;" readonly="true"  style="width:230px;"/>
+            </p>
+            <p>
+            	<label>所在地区：</label>
+                <select name="province" id="province" class="common_select1 left ml20">
+                	<option value="-1">请选择</option>
+                </select>
+                <select name="city" id="city" class="common_select1 left ml20">
+                	<option value="-1">请选择</option>
+                </select>
+                <select name="district" id="district" class="common_select1 left ml20">
+                	<option value="-1">请选择</option>
+                </select>
+            </p>
+            <p>
+            	<label>街道地址：</label>
+                <input name="address" id="address" type="text" class="common_text1 left ml20" style="width:400px;"/>
+                <font class="left f12 color_yellow1 ml10">不需要重复填写省/市/区</font>
+           	</p>
+            <p><label>邮政编码：</label><input name="postcode" id="postcode" type="text" class="common_text1 left ml20" style="width:230px;"/></p>
+            <p>
+                <label>家长电话：</label>
+                <input name="parentmobile"  id="parentmobile" onblur="_this.checkloginname();" type="text" class="common_text1 left ml20" style="width:230px;"/>
+                <font class="left f12 color_yellow1 ml10" id="msgmobile"></font>
+            </p>
+            <p >
+                <label>附件上传：</label>
+                <div id="attech"></div>
+            </p>
+            <p>
+           		<label>补充说明：</label>
+                <textarea name="content" id="content" cols="" rows="4" class="common_text2 left ml20" style="width:590px;"></textarea>
+            </p>
+            <p>
+            	<label>&nbsp;</label>
+            	<span class="confirm_btn2 left ml20" onclick="_this.submitset(attechValue);">确认提交</span>
+                <font class="left f12 color_yellow1 ml10">确认提交信息后，请您等待幼儿园审核！</font>
+                <!-- <span class="cancel_btn2 left ml50">暂不提交</span> -->
+            </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="onlineRegistration_bottom"><div class="house_ico"></div></div>
+</body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+
+	var schoolid = $('#schoolid').val();
+	$.ajax({
+		type : "POST",
+		url  : "/school/onlineapply/applyTime/",
+		data : "schoolid="+schoolid,
+		success: function(Respose){
+			if(Respose=='100'){
+				Boxy.alert('该园报名时间还没有开始!');
+				return false;
+			}
+			if(Respose=='1000'){
+				Boxy.alert('该园报名时间已经结束!');
+				
+				setTimeout(function (){ var schoolid = $('#schoolid').val(); location.href='/school/?schoolid='+schoolid}, 3000);
+				return false;
+				
+			}
+		}
+	});
+});
+/**园所统计-隐藏操作**/
+function kindergartenGarden_hide(name){
+	$(name).parent().parent().hide();
+	$(name).parent().parent().next().hide();
+}
+
+/**班级展示-展开收起操作**/
+function allClass_show(show_btn){
+	var textContent = $(show_btn).text();
+	if(textContent=="展开"){
+		$(".kindergartenClass_list").stop().animate({height:"100%"},500);
+		$(show_btn).text("收起");
+	}else if(textContent=="收起"){
+		$(".kindergartenClass_list").stop().animate({height:"120px"},500);
+		$(show_btn).text("展开");
+	}
+}
+
+/**文章列表-评论框显示**/
+function Comments_show(show){
+	var display=$(show).parent().next().css("display");
+	if(display=="none"){
+		$(show).css({background:"url(http://sxsklyey.ankang06.org/notice/www/static/public/images/kindergartenSkin/skin_01/tabMenu_kindergartenArticle_bg.png) no-repeat",color:"#FFF"});
+		$(show).parent().next().show();
+	}else if(display=="block"){
+		$(show).css({background:"none",color:"#404040"});
+		$(show).parent().next().hide();
+	}
+}
+
+/**文章列表-分页-页码选择效果**/
+$(".pageNumber").mouseover(function(){
+	$(this).find(".pageNumber_list").show();
+}).mouseout(function(){
+	$(this).find(".pageNumber_list").hide();
+});
+
+/**文章列表-回复框显示**/
+function replyComments_show(show){
+	$(show).parent().next().show();
+}
+//上传附件
+var attechValue=[];//附件名称
+$('#attech').diyUpload({
+    url:'http://sxsklyey.ankang06.org/school/onlineapply/fileupload',
+    success:function( data ) {
+        for(var i in data){
+            if (data.hasOwnProperty(i) === true){
+                attechValue.push(data[i])
+            }                  
+        }
+    },
+    error:function( err ) {
+        alert( err );    
+    },
+    buttonText : '选择文件',
+    chunked:true,
+    // 分片大小
+    chunkSize:512 * 1024,
+    //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+    fileNumLimit:4,
+    fileSizeLimit:500000 * 1024,
+    fileSingleSizeLimit:50000 * 1024,
+    swf:'http://sxsklyey.ankang06.org/notice/www/static/public/diyUpload/js/Uploader.swf',
+    accept:{
+        title:"ImagesDocs",
+        extensions:"gif,jpg,jpeg,bmp,png,doc,docx",
+        mimeTypes:"image/*,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    }
+});
+
+</script>
+
