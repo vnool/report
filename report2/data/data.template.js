@@ -30,7 +30,7 @@
             }, {
                 "type": "text",
                 "body": "2016-4-20",
-                "style": "bottom:20%;color:#666;font-size:0.9em",
+                "style": "bottom:20%;color:#fff;font-size:0.9em",
                 "css": "absolute center"
             }]
 
@@ -58,7 +58,7 @@
             }, {
                 "type": "text",
                 "body": "2016-4-20",
-                "style": "bottom:20%;color:#eee;font-size:0.9em",
+                "style": "bottom:20%;color:#fff;font-size:0.9em",
                 "css": "absolute center"
             }]
 

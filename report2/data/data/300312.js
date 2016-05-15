@@ -30,7 +30,7 @@
             }, {
                 "type": "text",
                 "body": "2016-4-20",
-                "style": "bottom:100px;color:#ee0;font-size:0.9em",
+                "style": "bottom:100px;color:#fff;font-size:0.9em",
                 "css": "absolute center"
             }]
 
