@@ -4,12 +4,12 @@
         "code": "{{code}}",
         "title": "{{companyName}} 2015年报吗",
         "subtitle": "@{{FINANCE['MainTarget.YingYeShouRu']['header']}}",
-        "style": ".PAGE{background-image:url(template/notice/imgs/bg_2.jpg);background-size: 100%;color:#000} a{color:blue}"
+        "style": ".PAGE{background-image:url(template/notice/imgs/bg_2.jpg); color:#000} a{color:blue}"
     },
     "pages": [{
             "title": "xxx",
             "phone": 888,
-            "style": "background:url(template/notice/imgs/bg_107.jpg); ",
+            "style": "background-image:url(template/notice/imgs/x11.jpg); ",
             "elements": [{
                 "type": "text",
                 "body": "{{companyName}} 2015年报",
@@ -30,14 +30,14 @@
             }, {
                 "type": "text",
                 "body": "2016-4-20",
-                "style": "bottom:20%;color:#eee;font-size:0.9em",
+                "style": "bottom:100px;color:#ee0;font-size:0.9em",
                 "css": "absolute center"
             }]
 
         },{
             "title": "xxx",
             "phone": 888,
-            "style": "background:url(template/notice/imgs/bg_107.jpg); ",
+            "style": "background-image:url(template/notice/imgs/x11.jpg); ",
             "elements": [{
                 "type": "text",
                 "body": "{{companyName}} 公司基本情况",
