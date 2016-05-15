@@ -4,7 +4,7 @@
         "code": "{{code}}",
         "title": "{{companyName}} 2015年报吗",
         "subtitle": "@{{FINANCE['MainTarget.YingYeShouRu']['header']}}",
-        "style": ".PAGE{background:#fff; color:#666} a{color:blue}"
+        "style": ".PAGE{background-color:#fff; color:#666} a{color:blue}"
     },
     "pages": [{
             "title": "xxx",
