@@ -4,7 +4,7 @@
         "code": "{{PROFILE['code']}} ",
         "title": "{{PROFILE['name']}} 2015年报吗",
         "subtitle": "@{{FINANCE['MainTarget.YingYeShouRu']['header']}}",
-        "style": ".PAGE{background-image:url(template/notice/imgs/bg_2.jpg); color:#000} a{color:blue}"
+        "style": ".PAGE{background:#fff; color:#666} a{color:blue}"
     },
     "pages": [{
             "title": "xxx",
