@@ -170,7 +170,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "迭创新高，后劲更足",
+                "body": "盈利能力不断增强",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -178,7 +178,7 @@
                 "body": {
                     "title": {
                         "text": "",
-                        "subtext": "迭创新高",
+                        "subtext": "盈利能力不断增强",
                         "x": "center"
                     },
                     "legend": {
@@ -202,7 +202,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "在行业趋势放缓情况下，仍然坚持同比增长50%,形式一片大好。",
+                "body": "控制费用，盈利可观",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -215,7 +215,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "迭创新高，后劲更足",
+                "body": "盈利质量不断提升",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -243,7 +243,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "净利润现金含量，净利润现金含量净利润现金含量",
+                "body": "经得起考验的净利润表现",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -256,7 +256,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "迭创新高，后劲更足",
+                "body": "资产规模不断壮大",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -284,7 +284,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "总资产总资产总资产总资产总资产",
+                "body": "体量是发现的保障",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -297,7 +297,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "迭创新高，后劲更足",
+                "body": "现金流",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -317,7 +317,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "现金现金现金现金现金",
+                "body": "大量的现金流决定企业的活力",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -330,7 +330,7 @@
             "style": " ",
             "elements": [{
                 "type": "text",
-                "body": "迭创新高，后劲更足",
+                "body": "    ",
                 "style": "margin-top:10%; font-size:1.2em",
                 "animate": "flyCenter"
             }, {
@@ -351,7 +351,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "毛利率毛利率毛利率毛利率",
+                "body": "高于同行的盈利能力",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
@@ -371,8 +371,8 @@
                 "type": "chart",
                 "body": {
                     "title": {
-                        "text": "折旧摊销额",
-                        "subtext": "迭创新高",
+                        "text": "折旧摊销额(万)",
+                        "subtext": " ",
                         "x": "center"
                     }, 
                     "xAxis": "@{{FINANCE['AssetStatement.LeiJiZheJiu']['header']}}",
@@ -384,7 +384,7 @@
                 }
             }, {
                 "type": "text",
-                "body": "折旧摊销额折旧摊销额折旧摊销额",
+                "body": "规范提计，绝无粉饰",
                 "style": " font-size:0.9em",
                 "css": "absolute center"
             }],
