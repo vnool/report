@@ -62,8 +62,8 @@ class wechatCallbackapiTest
 							}
 							else if( $postObj->MsgType =='event')
 							{
-								//$Content = "主人你好，感谢你收养了我\n 我现在是2岁智商，有时短暂性失忆。\n你可以和我，".WELCOME_MSG;
-                                $Content = "欢迎来到上市公司公告查询第一平台，输入股票代码查询年报/胜利。";
+								$Content = "主人你好，感谢你收养了我\n 我现在是2岁智商，有时短暂性失忆。\n你可以和我，".WELCOME_MSG;
+                                //$Content = WELCOME_MSG;//"欢迎来到上市公司公告查询第一平台，输入股票代码查询年报/胜利。";
 							}
 							else if($postObj->MsgType =='image')
 							{ 
